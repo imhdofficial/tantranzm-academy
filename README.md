@@ -1,1 +1,0 @@
-# tantranzm-academy
