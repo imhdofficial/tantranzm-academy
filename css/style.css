@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Medium.eot');
+    src: url('Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Graphik-Medium.woff2') format('woff2'),
+        url('Graphik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('font/Graphik-Regular.eot');
+    src: url('font/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Graphik-Regular.woff2') format('woff2'),
+        url('font/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'AmsiPro';
+    src: url('font/AmsiPro-Black.eot');
+    src: url('font/AmsiPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/AmsiPro-Black.woff2') format('woff2'),
+        url('font/AmsiPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmsiPro-Ultra';
+    src: url('font/AmsiPro-Ultra.eot');
+    src: url('font/AmsiPro-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('font/AmsiPro-Ultra.woff2') format('woff2'),
+        url('font/AmsiPro-Ultra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.wFull{
+    width: 100%;
+}
+.hFull{
+    height: 100%;
+}
+
+
+
+.tZli{
+    list-style: none;
+    text-decoration: none !important;
+    color: black;
+    margin-left: 20px;
+}
+
+
+
+.mTinput input{
+    border: none;
+    border-bottom: 1px gray solid;
+    width: 100%;
+}
+
+
+.mTinput{
+    width: 204px;
+}
+
+
+
+.mTsearchIcon{
+    position: absolute;
+    right: 4px;
+    top: 6px;
+}
+
+.mTbanner{
+    height: 614px;
+}
+
+
+.myBtn{
+    background-color: #15297B;
+}
