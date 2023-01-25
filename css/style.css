@@ -44,6 +44,21 @@
     font-display: swap;
 }
 
+.coloutOrng{
+    color: #EB8E38;
+}
+
+.bgOrange{
+    background-color: #EB8E38;
+}
+
+.bgRRed{
+    background-color: #B8353F;
+}
+
+.bgDblue{
+    background-color: #15297B;
+}
 
 .bgLblue{
     background-color: #58C1A3;
@@ -138,4 +153,73 @@
     border: none;
     width: 400px;
     margin-right: 18px;
+    
+}
+
+
+.ipStl input {
+    width: 90%;
+    height: 50px;
+    padding-left: 30px;
+}
+
+
+
+
+/* Footer  */
+
+footer {
+    padding: 5.5rem 0 4.5rem 0;
+    background-color: #2a2b2a;
+}
+
+.footer-column .nav-item span.footer-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #959595;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer-column .nav-item .nav-link {
+    padding: 0.1rem 0;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+
+
+.redCI input::placeholder {
+        color: rgb(255, 255, 255);
+}
+    
+
+.lodBar{
+    height: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+.lOd1{
+    height: 100%;
+    width: 90%;
+}
+
+.lOd2{
+    height: 100%;
+    width: 40%;
+}
+
+.redPA{
+    position: absolute;
+    right: 0;
+    width: 136vh;
+    bottom: -168px;
+}
+
+.tSize{
+    font-size: 15px;
+
 }
