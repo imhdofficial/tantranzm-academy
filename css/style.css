@@ -223,3 +223,29 @@ footer {
     font-size: 15px;
 
 }
+
+
+.inputBflow{
+    position: absolute;
+    bottom: 16px;
+    width: 738px;
+    right: 60px;
+}
+
+
+
+.inputB1{
+    border: none;
+    padding-left: 25px;
+    width: 157px;
+    background-color: #F4F4F4;
+}
+
+
+
+.inputB2{
+    border: none;
+    padding-left: 25px;
+    width: 364px;
+    margin-right: 31px;
+}
