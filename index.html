@@ -6,6 +6,10 @@
     <title>TantranZm</title>
     <link rel="shortcut icon" href="img/ficon.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- <link rel="stylesheet" href="js/owlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/owlCarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="js/owlCarousel/assets/animate.min.css">  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
@@ -26,29 +30,45 @@
       <header class="container d-flex justify-content-between my-4  tZheader align-items-center GraphikM">
           <div class="d-flex align-items-center">
               <a href="index.html">
-                <img style="height: 34px;" src="img/newlogo.png" alt="logo">
+                <img style="height: 50px;" src="img/Black-Logo.svg" alt="logo">
               </a>
 
-              <ul class="d-flex text-decoration-none m-0">  
-                <a class="text-decoration-none" href="#">
-                  <li class="tZli">Courses</li>
-                </a>
-                <a class="text-decoration-none" href="#">
-                  <li class="tZli">Training Centers</li>
-                </a>
-                <a class="text-decoration-none" href="#">
-                  <li class="tZli">Support</li>
-                </a>
-              </ul>
+              <div class="d-none d-sm-block">
+                <ul class="d-flex text-decoration-none m-0">  
+                  <div class="dropDown">
+                    <div class="text-decoration-none d-flex dropdown-toggle" href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                      <li class="tZli">Our Solutions</li>
+                      <img class="ps-2" src="img/d-down.svg" alt="">
+                    </div>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">For Individuals</a></li>
+                      <hr>
+                      <li><a class="dropdown-item" href="#">For Corporates</a></li>
+                      <hr>
+                      <li><a class="dropdown-item" href="#">For Colleges</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-decoration-none mx-3" href="#">
+                    <li class="tZli">Training Centers</li>
+                  </a>
+                  <a class="text-decoration-none " href="#">
+                    <li class="tZli">About Us</li>
+                  </a>
+                </ul>
+              </div>
           </div>
 
           <div class="d-flex justify-content-end align-items-center">
             <div class="mTinput position-relative noFc moreB">
-              <input class="bg-transparent pb-2" type="text" placeholder="__Search Courses">
-              <img src="img/searchicon.png" alt="" class="mTsearchIcon">
+              <input class="bg-transparent pb-2 d-none d-sm-block" type="text" placeholder="__Search Courses">
+              <img src="img/searchicon.png" alt="" class="mTsearchIcon d-none d-sm-block">
             </div>
+            <img src="img/searchicon.png" alt="" class="d-block d-sm-none d-flex justify-content-end">
 
-            <span class="mx-4">More</span>
+            <button type="button" class=" rounded-0 btn btn-danger ms-4">Apply Now</button>
+
+            <span class="mx-4">Login</span>
 
             <img style="height: 20px;" src="img/breadc.png" alt="">
           </div>
@@ -65,7 +85,7 @@
 
       <div class="container mTbanner position-relative d-flex wFull ">
         <div class="row d-flex position-relative">
-          <div class="col-6 m-0 p-5 bg-dark wFull">
+          <div class="col-12 col-sm-6 m-0 p-5 bg-dark wFull">
             <div class="py-5 px-4">
               <div class="mt-3 pt-3"></div>
               <h1 class="text-white AmsiProU text-uppercase">
@@ -80,9 +100,9 @@
             </div>
           </div>
 
-          <div class="col-6 m-0 p-0 wFull position-relative" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
+          <div class="col-6 m-0 p-0 wFull position-relative d-none d-sm-block" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
             <div class="container">
-              <div class="row d-flex">
+              <div class="row d-flex d-none d-sm-block">
                 <div class="mt-3 pt-3"></div>
                 <img src="img/girlo.png" alt="" class="mTgirl">
                 </div>
@@ -115,49 +135,45 @@
           <div class="pt-5 mt-5"></div>
           <div class="text-center">
             <h1 class="AmsiProU">Become Certified For The Right Skill Sets</h1>
-            <p class="GraphikM">Get a head start in the workplace and update skills effortlessly with <br> this free powerhouse of real-time courses.</p>
+            <p class="GraphikM">Get a head start in the workplace and update skills effortlessly with <br> this free powerhouse of real-time training programs.</p>
           </div>
         </div>
 
         <div class="container">
-          <div class="d-flex justify-content-center align-items-center">
+          <div class="d-flex flex-wrap justify-content-between clientRow align-items-center">
               <img src="img/tzc1.png" alt="">
-              <img class="mx-5" src="img/tzc2.png" alt="">
+              <img class="mx-sm-5" src="img/tzc2.png" alt="">
               <img src="img/tzc3.png" alt="">
           </div>
 
-          <div class="d-flex justify-content-center align-items-center mt-3">
+          <div class="d-flex flex-wrap justify-content-between clientRow align-items-center mt-5">
             <img src="img/tzc4.png" alt="">
-            <img class="mx-5" src="img/tzc5.png" alt="">
+            <img class="mx-sm-5" src="img/tzc5.png" alt="">
             <img src="img/tzc6.png" alt="">
           </div>
 
-          <div class="d-flex justify-content-center align-items-center mt-3">
+          <div class="d-flex flex-wrap justify-content-between clientRow align-items-center mt-5">
             <img src="img/tzc7.png" alt="">
-            <img class="mx-5" src="img/tzc8.png" alt="">
-            <img class="mx-5" src="img/tzc9.png" alt="">
+            <img class="mx-sm-5" src="img/tzc8.png" alt="">
+            <img src="img/tzc9.png" alt="">
+          </div>
+
+          <div class="d-flex flex-wrap justify-content-between clientRow align-items-center mt-5">
             <img src="img/tzc10.png" alt="">
+            <img class="mx-sm-5" src="img/tzc11.png" alt="">
+            <img src="img/tzc12.png" alt="">
           </div>
 
-          <div class="d-flex justify-content-center align-items-center mt-3">
-            <img src="img/tzc11.png" alt="">
-            <img class="mx-5" src="img/tzc12.png" alt="">
-            <img class="mx-5" src="img/tzc13.png" alt="">
-            <img src="img/tzc14.png" alt="">
-          </div>
-
-          <div class="d-flex justify-content-center align-items-center mt-3">
+          <div class="d-flex flex-wrap justify-content-between clientRow align-items-center mt-5">
+            <img src="img/tzc13.png" alt="">
+            <img class="mx-sm-5" src="img/tzc14.png" alt="">
             <img src="img/tzc15.png" alt="">
-            <img class="mx-5" src="img/tzc16.png" alt="">
-            <img class="mx-5" src="img/tzc17.png" alt="">
-            <img class="mx-5" src="img/tzc18.png" alt="">
-            <img src="img/tzc19.png" alt="">
           </div>
 
           <div class="pt-5 mt-5"></div>
 
           <div class="d-flex aline-item-center justify-content-center">
-            <button class="myBtn p-3">Explore All Courses</button>
+            <button class="myBtn p-3">Explore All Training Programs</button>
           </div>
         </div>
 
@@ -170,12 +186,12 @@
     <!-- ---------------------Clients End---------------------  -->
     
 
-    <!-- ---------------------Mentor-led Learning courses Start---------------------  -->
+    <!-- ---------------------Mentor-led Learning Training Programs Start---------------------  -->
       
 
       <div class="container">
         <div class="mt-5 pt-5"></div>
-        <h1 class="text-uppercase text-center AmsiProU">Mentor-led Learning courses</h1>
+        <h1 class="text-uppercase text-center AmsiProU">Mentor-led Learning Training Programs</h1>
         <div class="mt-4 pt-4"></div>
 
             <!-- Card row 2 -->
@@ -351,7 +367,7 @@
       </div>
 
       <div class="container-flued bgLblue">
-        <p class="text-white text-center py-4 text-uppercase">View all courses</p>
+        <p class="text-white text-center py-4 text-uppercase">View all Training Programs</p>
       </div>
 
       <div class="mt-5 pt-5"></div>
@@ -360,31 +376,31 @@
 
       <div class="container mt-5 brandonB">
         <div class="row">
-          <div class="col-3">
+          <div class="col-sm-3 col-12">
             <div class=" d-flex">
-              <img class="fourByfour" src="img/sevenfour.jpg" alt="">
-              <p class="px-2">Curvy curriculum that is co-created with industry leaders</p>
+              <img class="fourByfour" src="img/sevenfour1.svg" alt="">
+              <p class="px-3">Industry leaders co-create curvy curriculum</p>
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-sm-3 col-12">
             <div class=" d-flex">
-              <img class="fourByfour" src="img/sevenfour.jpg" alt="">
-              <p class="px-2">Personalized feedback on what needs tweaking.</p>
+              <img class="fourByfour" src="img/sevenfour2.svg" alt="">
+              <p class="px-3">Customized critique for areas requiring improvement.</p>
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-sm-3 col-12">
             <div class=" d-flex">
-              <img class="fourByfour" src="img/sevenfour.jpg" alt="">
-              <p class="px-2">Hands-on projects will help you master concepts</p>
+              <img class="fourByfour" src="img/sevenfour3.svg" alt="">
+              <p class="px-3">Concept Mastery through Hands-On Projects</p>
             </div>
           </div>
 
-          <div class="col-3">
+          <div class="col-sm-3 col-12">
             <div class=" d-flex">
-              <img class="fourByfour" src="img/sevenfour.jpg" alt="">
-              <p class="px-2">Network of 400+ highly vetted experts to answer any question you might have</p>
+              <img class="fourByfour" src="img/sevenfour4.svg" alt="">
+              <p class="px-3">Access to 400+ extensively evaluated experts to address your inquiries.</p>
             </div>
           </div>
         </div>
@@ -393,7 +409,37 @@
 
 
 
-    <!-- ---------------------Mentor-led Learning courses End---------------------  -->
+    <!-- ---------------------Mentor-led Learning Training Programs End---------------------  -->
+
+
+
+
+    <!-- ---------------------Learn with the best Start--------------------- -->
+
+
+
+
+    <div class="container-flued bg-danger">
+      <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+      </div>
+    </div>
+
+
+
+
+    <!-- ---------------------Learn with the best End--------------------- -->
 
 
     <div class="mt-4 pt-4"></div>
@@ -953,7 +999,7 @@
             <div class="col-lg col-6 footer-column">
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <span class="footer-title">Courses</span>
+                  <span class="footer-title">Training Programs</span>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Oracle Fusion Technical</a>
@@ -1108,5 +1154,56 @@
       
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- <script src="js/owlCarousel/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('#bannerC').owlCarousel({
+                loop:true,
+                // margin:10,
+                nav:true,
+                margin:0,
+                autoplay: true,
+                dots: false,
+                autoplayTimeout: 5000,
+                responsive:{
+                    0:{
+                        items:1,
+                        dots:true
+
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            })
+
+            $('.allCardc').owlCarousel({
+                loop:true,
+                margin:40,
+                nav:true,
+                dots: false,
+                responsive:{
+                    0:{
+                        items:1.3
+                    },
+                    600:{
+                        items:3.5
+                    },
+                    1000:{
+                        items:4
+                    }
+                }
+            })
+        });
+    </script> -->
+    
   </body>
 </html>

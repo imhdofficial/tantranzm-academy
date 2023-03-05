@@ -205,6 +205,29 @@
     margin-left: 20px;
 }
 
+.dropDown .dropdown-toggle::after{
+    display: none;
+}
+
+.dropDown .dropdown-menu{
+    inset: 10px auto auto 18px !important;
+    border-radius: 0;
+    padding-left: 23px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+    border: none;
+    padding-right: 19px;
+
+}
+
+.dropDown .dropdown-item{
+    padding: 0;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    padding-right: 53px;
+    line-height: 0;
+}
+
 
 
 .mTinput input{
@@ -243,6 +266,10 @@
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.clientRow{
+    padding: 0 21%;
 }
 
 .rateStar{
