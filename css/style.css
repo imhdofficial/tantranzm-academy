@@ -268,9 +268,7 @@
     right: 0;
 }
 
-.clientRow{
-    padding: 0 21%;
-}
+
 
 .rateStar{
     margin: 1px;
@@ -402,3 +400,26 @@ footer {
     width: 364px;
     margin-right: 31px;
 }
+
+.learnWithBest{
+    position: relative;
+}
+
+
+.learnWithBest .owl-nav{
+    position: absolute;
+    top: -102px;
+    right: 100px;
+    color: white;
+    font-size: 68px;
+    font-style: unset;
+    font-weight: 100;
+    line-height: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.learnWithBest .owl-prev span{
+    padding-right: 40px !important;
+}
+
+
