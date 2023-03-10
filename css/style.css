@@ -378,8 +378,8 @@ footer {
 
 .inputBflow{
     position: absolute;
-    bottom: -6px;
-    width: 738px;
+    bottom: 0px;
+    width: calc(100% + 40px);
     right: 0;
 }
 
@@ -423,3 +423,15 @@ footer {
 }
 
 
+
+.aos-init.bgDblue.inputBflow{
+    -webkit-transform: translate3d(0%,0,0) !important;
+    transform: translate3d(0%,0,0) !important;
+    width: 0%;
+}
+
+.aos-animate.aos-init.bgDblue.inputBflow{
+    -webkit-transform: translate3d(0%,0,0) !important;
+    transform: translate3d(0%,0,0) !important;
+    width: 100%;
+}
