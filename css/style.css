@@ -435,3 +435,31 @@ footer {
     transform: translate3d(0%,0,0) !important;
     width: 100%;
 }
+
+
+.alphaList ul {
+    counter-reset: listStyle;
+    columns: 1;
+    margin-top: 4.5rem;
+    list-style-type: none;
+}
+  
+.alphaList ul li {
+    counter-increment: listStyle;
+    padding: 12px 0;
+}
+  
+.alphaList ul li::before {
+    position: absolute;
+    left: 0;
+    content: counter(listStyle, upper-alpha);
+    display: inline-block;
+    margin-right: 1.7em;
+    width: 1.7em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 17px;
+}
