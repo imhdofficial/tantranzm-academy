@@ -463,3 +463,54 @@ footer {
     border-radius: 50%;
     font-size: 17px;
 }
+
+.goodBackground{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mainLi ul {
+    counter-reset: listStyle;
+    columns: 1;
+    margin-top: 4.5rem;
+    list-style-type: none;
+}
+  
+.mainLi ul li {
+    counter-increment: listStyle;
+    padding: 12px 0 12px 49px;
+    position: relative;
+}
+
+ 
+ 
+.mainLi ul li::before{
+    content: counter(listStyle, count);
+    display: inline-block;
+    margin-right: 1.7em;
+    width: 1.7em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 17px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+}
+.mainLi ul li:after{
+    content: "";
+    position: absolute;
+    left: 13px;
+    top: 16px;
+    bottom: -13px;
+    width: 2px;
+    background-color: rgb(214, 214, 214);
+    z-index: 1;
+}
+
+.mainLi ul li:last-child:after{
+    display: none;
+}
