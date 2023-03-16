@@ -553,3 +553,55 @@ footer {
 .advantagesLi ul{
     padding-left: 0px;
 }
+
+
+.learnersLogoBg{
+    height: 126px;
+    padding: 35px 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnersLogoBg img{
+    height: 100%!important;
+}
+
+
+.ourLearners .owl-nav{
+    font-size: 123px;
+    position: absolute;
+    top: 43px;
+    line-height: 0;
+    left: -60px;
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellowBorder{
+    border-left: 36px solid #F8CC6A;
+}
+
+
+.greenTickLi ul li::before {
+    content: url(../img/green-tick-icon.svg);
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+}
+
+.greenTickLi ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 34px;
+}
+
+.greenTickLi ul{
+    padding-left: 0px;
+}
+
+.priseList{
+    position: absolute;
+    bottom: -100px;
+}

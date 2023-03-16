@@ -474,6 +474,371 @@
 
 
 
+
+
+    <!-- Our Learners Work At Start -->
+
+
+      <div class="pt-5"></div>
+      <div class="pt-5"></div>
+      <div class="container position-relative">
+        <h3 class="AmsiProU text-uppercase">Our Learners Work At</h3>
+      <div class="pt-5"></div>
+        <div class="px-5">
+          <div class="owl-carousel owl-theme ourLearners">
+            <div class="item">
+              <div class="bg-white rounded-4 learnersLogoBg">
+                <img src="img/our-learners-work-at/1.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg-white rounded-4 learnersLogoBg">
+                <img src="img/our-learners-work-at/2.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg-white rounded-4 learnersLogoBg">
+                <img src="img/our-learners-work-at/3.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg-white rounded-4 learnersLogoBg">
+                <img src="img/our-learners-work-at/4.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg-white rounded-4 learnersLogoBg">
+                <img src="img/our-learners-work-at/5.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="item">
+              <div class="bg-white rounded-4 learnersLogoBg">
+                <img src="img/our-learners-work-at/6.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5"></div>
+      <div class="pt-5"></div>
+
+
+    <!-- Our Learners Work At End -->
+
+
+
+
+
+    <!-- Instructor Start  -->
+
+      <div class="container-fluid bg-white">
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+        <div class="container">
+          <h3 class="AmsiProU text-uppercase">Instructor</h3>
+          <div class="pt-5"></div>
+          <div class="row">
+            <div class="col-1 yellowBorder"></div>
+            <div class="col-9">
+              <div class="d-flex">
+                <img src="img/instructor/1.png" alt="" class="img-fluid">
+                <div class="ps-4">
+                  <p class="GraphikM mb-1">Jyoti Sharma</p>
+                  <div class="d-flex align-items-center">
+                    <img src="img/instructor/black-start.svg" alt="" class="img-fluid me-2">
+                    <small class="GraphikM text-muted">4.4 Reviews</small>
+                  </div>
+                  <small class="GraphikM text-muted">Architect & FreeLancer</small>
+                </div>
+              </div>
+              <div class="pt-4">
+              <small class="GraphikR text-muted">B.Tech & M.Tech Computer Science at NIT Kurukshetra (Department Ranker 1, CGPA: 9.8) with experience in Android App Development and Machine Learning. I am highly enthusiastic about learning and teaching cutting-edge technologies. My interests include Teaching, Data Structures, Algorithms, and Problem Solving. Worked at Infoedge(Naukri), Ok Google, and got offers from various tech companies including Adobe, UrbanCompany, etc, I would love to create more developers by imparting what I know.</small>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+      </div>
+
+
+    <!-- Instructor End  -->
+
+
+
+
+
+    <!-- Get Started today Start  -->
+
+
+        <div class="container-fluid goodBackground position-relative" style="background-image: url(img/get-started-today/banner-bg.jpg);">
+          <div class="container">
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <h3 class="AmsiProU text-uppercase text-white text-center">Get Started today</h3>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="pt-5"></div>
+            <div class="d-flex justify-content-center">
+              <div class="row priseList">
+                <div class="col-1"></div>
+                <div class="col-5">
+                  <div class="p-5 bg-white h-100">
+                    <p class="text-black-50 GraphikM mb-0">Monthly access</p>
+                    <small class="GraphikSB">Pay as you go</small>
+                    <hr>
+                    <p class="GraphikSB fs-1 mb-0">₹22849</p>
+                    <small class="GraphikSB">per Month</small> <br>
+                    <button type="button" class="btn rounded-0 btn-danger py-3 px-4 me-4 mt-4 mb-5">Enroll Now <img class="ms-5" src="img/btn-aero.svg" alt=""></button>
+
+                    <div class="greenTickLi">
+                      <ul>
+                        <li>Maximum flexibility to learn at your own pace.</li>
+                        <li>Cancel anytime.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-5">
+                  <div class="p-5 bg-white h-100">
+                    <p class="text-black-50 GraphikM mb-0">4-Monthly access</p>
+                    <small class="GraphikSB">Pay upfront and save an extra 15%</small>
+                    <hr>
+                    <p class="GraphikSB fs-1 mb-0">₹77676</p>
+                    <small class="GraphikSB">for 4-Month access</small> <br>
+                    <button type="button" class="btn rounded-0 btn-danger py-3 px-4 me-4 mt-4 mb-5">Enroll Now <img class="ms-5" src="img/btn-aero.svg" alt=""></button>
+
+                    <div class="greenTickLi">
+                      <ul>
+                        <li>Save an extra 15% vs. pay as you go.</li>
+                        <li>4 months is the average time to complete this course.</li>
+                        <li>Switch to monthly price after if more time is needed.</li>
+                        <li>Cancel anytime.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+    <!-- Get Started today End  -->
+
+
+
+
+
+    <!-- ---------------------other related Training Programs Start---------------------  -->
+      
+
+    <div class="container">
+        <div class="mt-5 pt-5"></div>
+        <div class="mt-5 pt-5"></div>
+          <div class="text-center">
+            <h3 class="text-uppercase text-center AmsiProU">other related Training Programs</h3>
+          </div>
+        <div class="mt-4 pt-4"></div>
+
+            <!-- Card row 2 -->
+
+        <div class="row">
+          <div class="col-6">
+            <div class="bg-white me-2">
+              <div class="row">
+                <div class="col-4 border-end">
+                  <div class="p-4">
+                    <img src="img/melcholder.jpg" alt="">
+                    <div class="pt-4"></div>
+                    <img src="img/bluebox.png" alt="">
+                  </div>
+                </div>
+
+                  <div class="col-8" href>
+                    <div class="p-4 pb-2">
+                        <h5 class="brandonB">Oracle Fusion Technical</h5>
+                      <div class="d-flex">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/downstar.png" alt="">
+                      </div>
+                      <br>
+                      <h6 class="brandonB">Skills</h6>
+                      <p class="text-black-50">
+                        Business Intelligence (BI)
+                        <br> BI - Yeh Dil Maange More
+                        <br> All about BI Publisher RTF Templates
+                        <br> Schedule BI Reports
+                        <br> BI as Outbound Integration Tool
+                        <br> BI ESS Jobs & Report Security
+                        <br> Oracle Transactional Business Intelligence (OTBI..
+                      </p>
+                      <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-6">
+            <div class="bg-white ms-2">
+              <div class="row">
+                <div class="col-4 border-end">
+                  <div class="p-4">
+                    <img src="img/melcholder.jpg" alt="">
+                    <div class="pt-4"></div>
+                    <img src="img/bluebox.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="p-4 pb-2">
+                    <h5 class="brandonB">Oracle Fusion Technical</h5>
+                    <div class="d-flex">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/downstar.png" alt="">
+                    </div>
+                    <br>
+                    <h6 class="brandonB">Skills</h6>
+                    <p class="text-black-50">
+                      Business Intelligence (BI)
+                      <br> BI - Yeh Dil Maange More
+                      <br> All about BI Publisher RTF Templates
+                      <br> Schedule BI Reports
+                      <br> BI as Outbound Integration Tool
+                      <br> BI ESS Jobs & Report Security
+                      <br> Oracle Transactional Business Intelligence (OTBI..
+                    </p>
+                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <!-- Card row 2 -->
+
+        <div class="mt-4 pt-4"></div>
+
+        <div class="row">
+          <div class="col-6">
+            <div class="bg-white me-2">
+              <div class="row">
+                <div class="col-4 border-end">
+                  <div class="p-4">
+                    <img src="img/melcholder.jpg" alt="">
+                    <div class="pt-4"></div>
+                    <img src="img/bluebox.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="p-4 pb-2">
+                    <h5 class="brandonB">Oracle Fusion Technical</h5>
+                    <div class="d-flex">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/downstar.png" alt="">
+                    </div>
+                    <br>
+                    <h6 class="brandonB">Skills</h6>
+                    <p class="text-black-50">
+                      Business Intelligence (BI)
+                      <br> BI - Yeh Dil Maange More
+                      <br> All about BI Publisher RTF Templates
+                      <br> Schedule BI Reports
+                      <br> BI as Outbound Integration Tool
+                      <br> BI ESS Jobs & Report Security
+                      <br> Oracle Transactional Business Intelligence (OTBI..
+                    </p>
+                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-6">
+            <div class="bg-white ms-2">
+              <div class="row">
+                <div class="col-4 border-end">
+                  <div class="p-4">
+                    <img src="img/melcholder.jpg" alt="">
+                    <div class="pt-4"></div>
+                    <img src="img/bluebox.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-8">
+                  <div class="p-4 pb-2">
+                    <h5 class="brandonB">Oracle Fusion Technical</h5>
+                    <div class="d-flex">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/upstar.png" alt="">
+                      <img class="rateStar" src="img/downstar.png" alt="">
+                    </div>
+                    <br>
+                    <h6 class="brandonB">Skills</h6>
+                    <p class="text-black-50">
+                      Business Intelligence (BI)
+                      <br> BI - Yeh Dil Maange More
+                      <br> All about BI Publisher RTF Templates
+                      <br> Schedule BI Reports
+                      <br> BI as Outbound Integration Tool
+                      <br> BI ESS Jobs & Report Security
+                      <br> Oracle Transactional Business Intelligence (OTBI..
+                    </p>
+                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5 pt-5"></div>
+      </div>
+
+      <div class="container-flued bgLblue">
+        <p class="text-white text-center py-4 text-uppercase m-0">View all Training Programs</p>
+      </div>
+
+    
+
+
+
+    <!-- ---------------------Mentor-led Learning Training Programs End---------------------  -->
+
+
+
     
 
 
@@ -530,18 +895,18 @@
         $(document).ready(function() {
           $('.owl-carousel').owlCarousel({
               loop:true,
-              margin:30,
+              margin:10,
               nav:true,
               dots:false,
               responsive:{
                   0:{
-                      items:1
+                      items:1.5
                   },
                   600:{
-                      items:3
+                      items:3.3
                   },
                   1000:{
-                      items:3.5
+                      items:5.2
                   }
               }
           })
