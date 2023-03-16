@@ -20,6 +20,17 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Graphik-Semibold';
+    src: url('../font/Graphik-Semibold.eot');
+    src: url('../font/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Graphik-Semibold.woff2') format('woff2'),
+        url('../font/Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 @font-face {
@@ -158,6 +169,10 @@
 
 .GraphikM{
     font-family: 'Graphik-Medium';
+}
+
+.GraphikSB{
+    font-family: 'Graphik-Semibold';
 }
 
 
@@ -513,4 +528,28 @@ footer {
 
 .mainLi ul li:last-child:after{
     display: none;
+}
+
+.advantagesBar{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.advantagesLi ul li::before {
+    content: url(../img/tick-icon.svg);
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+}
+
+.advantagesLi ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 34px;
+}
+
+.advantagesLi ul{
+    padding-left: 0px;
 }

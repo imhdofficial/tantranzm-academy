@@ -224,6 +224,256 @@
 
 
 
+
+
+
+    <!-- All our program includes Start -->
+
+
+      <div class="container-fluid goodBackground" style="background-image: url(img/program-includes-banner.jpg);">
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+        <div class="container">
+          <h3 class="AmsiProU text-uppercase text-white">All our program includes</h3>
+          <div class="pt-5"></div>
+          <div class="pt-3"></div>
+          <div class="row">
+            <div class="col-3 text-white">
+              <div class="pe-sm-4">
+                <img class="pb-4" src="img/a-in-white-circle.svg" alt="">
+                <p class="GraphikSB fs-5 pb-2">Real-world projects from industry experts</p>
+                <small class="GraphikM">With real-world projects and immersive content built in partnership with top-tier companies, you’ll master the tech skills companies want.</small>
+              </div>
+            </div>
+            <div class="col-3 text-white">
+              <div class="px-sm-2">
+                <img class="pb-4" src="img/b-in-white-circle.svg" alt="">
+                <p class="GraphikSB fs-5 pb-2">Technical mentor support</p>
+                <small class="GraphikM">Our knowledgeable mentors guide your learning and are focused on answering your questions, motivating you, and keeping you on track.</small>
+              </div>
+            </div>
+            <div class="col-3 text-white">
+              <div class="px-sm-2">
+                <img class="pb-4" src="img/c-in-white-circle.svg" alt="">
+                <p class="GraphikSB fs-5 pb-2">Career services</p>
+                <small class="GraphikM">You’ll have access to Github portfolio review and LinkedIn profile optimization to help you advance your career and land a high-paying role.</small>
+              </div>
+            </div>
+            <div class="col-3 text-white">
+              <div class="ps-sm-4">
+                <img class="pb-4" src="img/d-in-white-circle.svg" alt="">
+                <p class="GraphikSB fs-5 pb-2">Flexible learning program</p>
+                <small class="GraphikM">Tailor a learning plan that fits your busy life. Learn at your own pace and reach your personal goals on the schedule that works best for you.</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+        <div class="pt-3"></div>
+      </div>
+
+
+    <!-- All our program includes End -->
+
+
+
+
+
+    <!-- Advantages Start -->
+
+
+      <div class="container-fluid bg-dark position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+              <img src="img/advantages/men.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-7">
+              <div class="bg-danger text-white advantagesBar">
+                <div class="pt-5"></div>
+                <div class="pt-5"></div>
+                <div class="pt-3"></div>
+                <div class="px-5 mx-4">
+                  <h2 class="AmsiProU text-uppercase text-white">Advantages</h2>
+                  <div class="advantagesLi">
+                    <div class="row GraphikSB my-4 pt-5">
+                      <div class="col-6">
+                        <ul>
+                          <li class="">16.5 hours on-demand video</li>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <ul>
+                          <li class="">Additional suggested resources to improve</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="row GraphikSB my-4">
+                      <div class="col-6">
+                        <ul>
+                          <li class="">Practical tips and industry best practices</li>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <ul>
+                          <li class="">Access on mobile and tv</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="row GraphikSB my-4">
+                      <div class="col-6">
+                        <ul>
+                          <li class="">Personalized feedback</li>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <ul>
+                          <li class="">Get timely feedback on your projects.</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="row GraphikSB my-4">
+                      <div class="col-6">
+                        <ul>
+                          <li class="">3 downloadable resources</li>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <ul>
+                          <li class="">Full lifetime access</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pt-5"></div>
+                <div class="pt-5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- Advantages End -->
+
+
+
+
+
+    <!-- Top candidates reviews Start -->
+
+
+      <div class="container-fluid bg-white">
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <h3 class="AmsiProU text-uppercase">Top candidates <br> reviews</h3>
+            </div>
+            <div class="col-8">
+              <div class="">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="bg-light px-5 py-5">
+                      <div class="d-flex">
+                        <img src="img/top-candidates-reviews/men-icon.png" alt="" class="img-fluid">
+                        <div class="ms-4">
+                          <p class="GraphikM">Amy R.</p>
+                          <div>
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pt-4">
+                        <small class="GraphikR">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum ipsum maiores aliquam nihil mollitia corrupti, ab, soluta autem facilis neque qui dolorum quasi labore quibusdam sit, itaque ducimus adipisci repudiandae odio.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="bg-light px-5 py-5">
+                      <div class="d-flex">
+                        <img src="img/top-candidates-reviews/men-icon.png" alt="" class="img-fluid">
+                        <div class="ms-4">
+                          <p class="GraphikM">Amy R.</p>
+                          <div>
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pt-4">
+                        <small class="GraphikR">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum ipsum maiores aliquam nihil mollitia corrupti, ab, soluta autem facilis neque qui dolorum quasi labore quibusdam sit, itaque ducimus adipisci repudiandae odio.</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pt-5"></div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="bg-light px-5 py-5">
+                      <div class="d-flex">
+                        <img src="img/top-candidates-reviews/men-icon.png" alt="" class="img-fluid">
+                        <div class="ms-4">
+                          <p class="GraphikM">Amy R.</p>
+                          <div>
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pt-4">
+                        <small class="GraphikR">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum ipsum maiores aliquam nihil mollitia corrupti, ab, soluta autem facilis neque qui dolorum quasi labore quibusdam sit, itaque ducimus adipisci repudiandae odio.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="bg-light px-5 py-5">
+                      <div class="d-flex">
+                        <img src="img/top-candidates-reviews/men-icon.png" alt="" class="img-fluid">
+                        <div class="ms-4">
+                          <p class="GraphikM">Amy R.</p>
+                          <div>
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                            <img src="img/top-candidates-reviews/black-star.svg" alt="" class="img-fluid">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pt-4">
+                        <small class="GraphikR">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum ipsum maiores aliquam nihil mollitia corrupti, ab, soluta autem facilis neque qui dolorum quasi labore quibusdam sit, itaque ducimus adipisci repudiandae odio.</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-5"></div>
+        <div class="pt-5"></div>
+        <div class="pt-3"></div>
+      </div>
+
+
+    <!-- Top candidates reviews End -->
+
+
+
     
 
 
