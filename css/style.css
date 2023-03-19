@@ -31,6 +31,17 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Graphik-Bold';
+    src: url('../font/Graphik-Bold.eot');
+    src: url('../font/Graphik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Graphik-Bold.woff2') format('woff2'),
+        url('../font/Graphik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 @font-face {
@@ -173,6 +184,10 @@
 
 .GraphikSB{
     font-family: 'Graphik-Semibold';
+}
+
+.GraphikB{
+    font-family: 'Graphik-Bold';
 }
 
 
@@ -466,11 +481,12 @@ footer {
   
 .alphaList ul li::before {
     position: absolute;
-    left: 0;
+    left: -26px;
     content: counter(listStyle, upper-alpha);
     display: inline-block;
     margin-right: 1.7em;
-    width: 1.7em;
+    width: 29px;
+    height: 29px;
     text-align: center;
     background-color: black;
     color: white;
@@ -604,4 +620,79 @@ footer {
 .priseList{
     position: absolute;
     bottom: -100px;
+}
+
+.mentorshipList ul li::before {
+    position: absolute;
+    left: -50px;
+    content: url(../img/mentorship/li.svg);
+    display: inline-block;
+    margin-right: 1.7em;
+    text-align: center;
+    
+}
+
+.mentorshipList ul {
+    counter-reset: listStyle;
+    columns: 1;
+    margin-top: 4.5rem;
+    list-style-type: none;
+}
+  
+.mentorshipList ul li {
+    counter-increment: listStyle;
+    padding: 12px 0;
+}
+
+
+.getInTouchInput{
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #0000002e;
+    padding: 14px 16px;
+    margin-top: 6px
+}
+
+
+
+.getInTouchForm input:focus{
+    border-radius: 0 !important;
+    border: 1px solid #000000ad !important;
+    outline: none;
+}
+
+
+.getInTouchInputHeight{
+    height: 211px!important;
+}
+
+
+.getInTouchInputHeight:focus{
+    border-radius: 0 !important;
+    border: 1px solid #000000ad !important;
+    outline: none;
+}
+
+.signIn input{
+    width: 100%;
+    padding: 12px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+.signIn input:focus{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+.posAbs{
+    position: absolute;
+    bottom: 28px;
+    right: 28px;
+    background-color: #f3943d63;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 41%;
 }

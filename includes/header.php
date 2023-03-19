@@ -1,6 +1,6 @@
 <header class="container-fluid d-flex justify-content-between my-4  tZheader align-items-center GraphikM">
           <div class="d-flex align-items-center  px-4">
-              <a href="index.html">
+              <a href="index.php">
                 <img style="height: 50px;" src="img/Black-Logo.svg" alt="logo">
               </a>
 

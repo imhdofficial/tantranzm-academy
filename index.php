@@ -237,9 +237,7 @@
 
                   <div class="col-8" href>
                     <div class="p-4 pb-2">
-                      <a href="training-programs-detail-page.php">
-                        <h5 class="brandonB">Oracle Fusion Technical</h5>
-                      </a>
+                      <h5 class="brandonB">Oracle Fusion Technical</h5>
                       <div class="d-flex">
                         <img class="rateStar" src="img/upstar.png" alt="">
                         <img class="rateStar" src="img/upstar.png" alt="">
@@ -625,7 +623,26 @@
           </p>
         </div>
       </div>
-
+      <div class="bg-dark mt-5">
+        <div class="p-5">
+          <div class="row">
+            <div class="col-3">
+              <div class="pt-5"></div>
+              <div class="pt-5"></div>
+              <img src="img/white-logo.svg" alt="" class="img-fluid w-100">
+            </div>
+            <div class="col-1"></div>
+            <div class="col-8">
+              <p class="text-white fs-4 ps-5 GraphikR">
+                We also wanted to give job seekers the opportunity to learn new skills, stay current in their field, and increase their chances of finding a job. & stand out from the competition in order to land the job they want
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5"></div>
+      <div class="pt-5"></div>
+      <div class="pt-5"></div>
     </div>
 
 
