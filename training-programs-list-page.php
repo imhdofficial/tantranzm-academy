@@ -212,7 +212,22 @@
 
             </div>
             <div class="col-9">
-              <p class="GraphikSB">3 Course in Cart </p>
+              <div class="d-flex justify-content-between">
+                <p class="GraphikSB">Total Result: 5</p>
+                <div class="d-flex align-items-center">
+                  <p class="GraphikSB mb-0 me-2">Classroom Mode:</p>
+                  <div class="dropdown">
+                    <button class="btn rounded-0 btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      -Select-
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">On-premise classroom</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Online classroom</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
               <hr>
               <div class="row">
                 <div class="col-2 position-relative">
