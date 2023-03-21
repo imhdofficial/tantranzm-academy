@@ -41,8 +41,8 @@
             </p>
 
             <div class="pt-5 mt-5"></div>
-            <div class="pt-5 mt-5"></div>
-            <div class="pt-5 mt-3"></div>
+            <div class="pt-5 mt-5 d-none d-lg-block"></div>
+            <div class="pt-5 mt-3 d-none d-lg-block"></div>
             <div class="bg-black bg-opacity-25 rounded-4 p-5">
                 <p class="text-white-50">
                   "I had an exceptional experience at Tantranzm Academy. The instructors were experts in their fields and invested in our success. The curriculum was engaging and equipped me with valuable skills. I highly recommend Tantranzm Academy."

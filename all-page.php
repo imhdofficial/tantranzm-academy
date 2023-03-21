@@ -22,13 +22,19 @@
         <br><br>
         <a href="index.php">index.php</a>
         <br><br>
-        <a href="sign-in.php">sign-in.php</a>
+        <a href="sign-up.php">sign-up.php  -------responsive-done</a>
         <br><br>
-        <a href="sign-in.php">sign-up.php</a>
+        <a href="sign-in.php">sign-in.php  -------responsive-done</a>
         <br><br>
         <a href="cart.php">cart.php</a>
         <br><br>
         <a href="training-programs-list-page.php">training-programs-list-page.php</a>
+        <br><br>
+        <a href="order-placed.php">order-placed.php  -------responsive-done</a>
+        <br><br>
+        <a href="payment-failed.php">payment-failed.php  -------responsive-done</a>
+        <br><br>
+        <a href="make-payment.php">make-payment.php  -------responsive-done</a>
     </h1>
 
 

@@ -30,7 +30,7 @@
   <body class="bg-light GraphikR">
 
     <!-- --------------------- This is Header ---------------------  -->
-      <?php include 'includes/header.php'  ?>
+      <!-- <?php include 'includes/header.php'  ?> -->
 
 
 
@@ -38,16 +38,16 @@
       <div class="container-fluid bg-white">
         <div class="pt-5"></div>
         <div class="container">
-          <h1 class="text-uppercase text-center AmsiProU" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">cart</h1>
+          <h1 class="text-uppercase AmsiProU">cart</h1>
           <div class="row">
-            <div class="col-8">
+            <div class="col-sm-8 col-12">
               <p class="GraphikSB">3 Course in Cart </p>
               <hr>
               <div class="row">
-                <div class="col-2">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 col-12">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                 </div>
-                <div class="col-10">
+                <div class="col-sm-10 col-12">
                   <div class="ps-2 pe-4">
                     <div class="d-flex justify-content-between">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
@@ -72,10 +72,10 @@
               <hr>
 
               <div class="row">
-                <div class="col-2">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 col-12">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                 </div>
-                <div class="col-10">
+                <div class="col-sm-10 col-12">
                   <div class="ps-2 pe-4">
                     <div class="d-flex justify-content-between">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
@@ -100,10 +100,10 @@
               <hr>
 
               <div class="row">
-                <div class="col-2">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 col-12">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                 </div>
-                <div class="col-10">
+                <div class="col-sm-10 col-12">
                   <div class="ps-2 pe-4">
                     <div class="d-flex justify-content-between">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
@@ -128,10 +128,10 @@
               <hr>
 
               <div class="row">
-                <div class="col-2">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 col-12">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                 </div>
-                <div class="col-10">
+                <div class="col-sm-10 col-12">
                   <div class="ps-2 pe-4">
                     <div class="d-flex justify-content-between">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
@@ -156,7 +156,7 @@
               <hr>
               <div class="pt-5"></div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4 col-12">
               <div class="ps-4">
                 <p class="GraphikSB text-muted">Total:</p>
                 <p class="GraphikB fs-2 mb-0">₹40831</p>
@@ -182,175 +182,8 @@
           </div>
         <div class="mt-4 pt-4"></div>
 
-            <!-- Card row 2 -->
-
-        <div class="row">
-          <div class="col-6">
-            <div class="bg-white me-2">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
-                  </div>
-                </div>
-
-                  <div class="col-8" href>
-                    <div class="p-4 pb-2">
-                      <h5 class="brandonB">Oracle Fusion Technical</h5>
-                      <div class="d-flex">
-                        <img class="rateStar" src="img/upstar.png" alt="">
-                        <img class="rateStar" src="img/upstar.png" alt="">
-                        <img class="rateStar" src="img/upstar.png" alt="">
-                        <img class="rateStar" src="img/upstar.png" alt="">
-                        <img class="rateStar" src="img/downstar.png" alt="">
-                      </div>
-                      <br>
-                      <h6 class="brandonB">Skills</h6>
-                      <p class="text-black-50">
-                        Business Intelligence (BI)
-                        <br> BI - Yeh Dil Maange More
-                        <br> All about BI Publisher RTF Templates
-                        <br> Schedule BI Reports
-                        <br> BI as Outbound Integration Tool
-                        <br> BI ESS Jobs & Report Security
-                        <br> Oracle Transactional Business Intelligence (OTBI..
-                      </p>
-                      <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-6">
-            <div class="bg-white ms-2">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
-                  </div>
-                </div>
-
-                <div class="col-8">
-                  <div class="p-4 pb-2">
-                    <h5 class="brandonB">Oracle Fusion Technical</h5>
-                    <div class="d-flex">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/downstar.png" alt="">
-                    </div>
-                    <br>
-                    <h6 class="brandonB">Skills</h6>
-                    <p class="text-black-50">
-                      Business Intelligence (BI)
-                      <br> BI - Yeh Dil Maange More
-                      <br> All about BI Publisher RTF Templates
-                      <br> Schedule BI Reports
-                      <br> BI as Outbound Integration Tool
-                      <br> BI ESS Jobs & Report Security
-                      <br> Oracle Transactional Business Intelligence (OTBI..
-                    </p>
-                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-            <!-- Card row 2 -->
-
-        <div class="mt-4 pt-4"></div>
-
-        <div class="row">
-          <div class="col-6">
-            <div class="bg-white me-2">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
-                  </div>
-                </div>
-
-                <div class="col-8">
-                  <div class="p-4 pb-2">
-                    <h5 class="brandonB">Oracle Fusion Technical</h5>
-                    <div class="d-flex">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/downstar.png" alt="">
-                    </div>
-                    <br>
-                    <h6 class="brandonB">Skills</h6>
-                    <p class="text-black-50">
-                      Business Intelligence (BI)
-                      <br> BI - Yeh Dil Maange More
-                      <br> All about BI Publisher RTF Templates
-                      <br> Schedule BI Reports
-                      <br> BI as Outbound Integration Tool
-                      <br> BI ESS Jobs & Report Security
-                      <br> Oracle Transactional Business Intelligence (OTBI..
-                    </p>
-                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-6">
-            <div class="bg-white ms-2">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
-                  </div>
-                </div>
-
-                <div class="col-8">
-                  <div class="p-4 pb-2">
-                    <h5 class="brandonB">Oracle Fusion Technical</h5>
-                    <div class="d-flex">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/downstar.png" alt="">
-                    </div>
-                    <br>
-                    <h6 class="brandonB">Skills</h6>
-                    <p class="text-black-50">
-                      Business Intelligence (BI)
-                      <br> BI - Yeh Dil Maange More
-                      <br> All about BI Publisher RTF Templates
-                      <br> Schedule BI Reports
-                      <br> BI as Outbound Integration Tool
-                      <br> BI ESS Jobs & Report Security
-                      <br> Oracle Transactional Business Intelligence (OTBI..
-                    </p>
-                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <?php include 'includes/related-training-programs.php'  ?>
+        
         <div class="mt-5 pt-5"></div>
       </div>
 

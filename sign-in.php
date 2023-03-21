@@ -37,7 +37,7 @@
       <div class="pt-5 mt-5"></div>
       <div class="row justify-content-center">
         <div class="col"></div>
-        <div class="col-sm-4 col-12 px-2 px-sm-0">
+        <div class="col-sm-10 col-lg-4 col-12 px-2 px-sm-0">
           <div class="">
             <h1 class="text-white AmsiProU text-uppercase">Sign in</h1>
             <p class="text-white GraphikSB">New to TantranZm Academy ? <span class="text-primary ms-3">Sign up for free</span></p>
