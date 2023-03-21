@@ -26,7 +26,7 @@
         <br><br>
         <a href="sign-in.php">sign-in.php  -------responsive-done</a>
         <br><br>
-        <a href="cart.php">cart.php</a>
+        <a href="cart.php">cart.php  -------responsive-done</a>
         <br><br>
         <a href="training-programs-list-page.php">training-programs-list-page.php</a>
         <br><br>
