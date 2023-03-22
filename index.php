@@ -27,8 +27,9 @@
 
 
 
-  <body class="bg-light brandonR">
+  <body class="brandonR">
 
+  <main>
     <!-- --------------------- This is Header ---------------------  -->
       <?php include 'includes/header.php'  ?>
 
@@ -984,6 +985,59 @@
         <?php include 'includes/footer.php'  ?>
       
       
+</main>
+
+
+<div class="menu-perpective">
+  <button class="btn close" onclick="smartMenu()"> <img src="img/close.svg" alt=""> </button>
+  <div class="p-5 mt-5"></div>
+
+  <div class="row">
+    <div class="col d-none d-sm-block">
+      <h2>COURSES OFFERING</h2>
+      <ul>
+        <li>Oracle Fusion Technical</li>
+        <li>Oracle Finance & PPM</li>
+        <li>Oracel HCM Techn-Fun</li>
+        <li>Oracle SCM</li>
+        <li>Oracle Apps Tech</li>
+        <li>Oracle Apex</li>
+        <li>Java</li>
+        <li>SFDC</li>
+        <li>Mobile Android</li>
+        <li>Mobile iOS</li>
+        <li>Adobe AEM/Creative</li>
+        <li>Machine Learning</li>
+        <li>Data Science</li>
+        <li>MS Devops</li>
+        <li>MS Sharepoint</li>
+        <li>MS Power BI</li>
+        <li>Fullstack</li>
+        <li>SAP ABAP</li>
+        <li>SAP FICO</li>
+        <li>SAP MM</li>
+        <li>SAP Hybris</li>
+        <li>SAP Fiori</li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <li>Home</li>
+        <li>About us</li>
+        <li>On Premise</li>
+        <li>Online classes</li>
+        <li>Corporate Training</li>
+        <li>College Training</li>
+        <li>Career</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy policy</li>
+      </ul>
+      <button>Login</button>
+      <button>Signup</button>
+    </div>
+  </div>
+
+</div>
 
 
 
@@ -998,13 +1052,11 @@
 
     <script src="js/owlCarousel/owl.carousel.min.js"></script>
     <script>
-        $(document).ready(function() {
-          $('.odometer').html(
-            
-          ) // with jQuery
-            
-        });
-
+       
+      function smartMenu(){
+          $("body").toggleClass("smartMenu");
+      }
+      
 
         $(document).ready(function() {
           $('.owl-carousel').owlCarousel({

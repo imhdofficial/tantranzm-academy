@@ -41,6 +41,8 @@
 
             <span class="mx-4">Login</span>
 
-            <img style="height: 20px;" src="img/breadc.png" alt="">
+            <button class="btn" onclick="smartMenu()">
+              <img style="height: 20px;" src="img/breadc.png" alt="">
+            </button>
           </div>
       </header>

@@ -228,41 +228,6 @@
     text-align: justify;
 }
 
-/* --------------------------------  SOME GENRAL CLASS END --------------------------------  */
-
-/* Mobile View start  */
-
-@media all and (max-width: 767px) {
-
-    .makePaymentColReverse{
-        flex-flow: column-reverse
-    }
-
-    .mobBanner{
-        width: 100%;
-        height: 113px !important;
-        object-fit: cover;
-        border-radius: 30px 30px 0px 0px;
-        margin-bottom: 23px;
-        margin-top: 43px;
-    }
-
-    .topRounded{
-        border-radius: 30px 30px 0px 0px;
-    }
-
-    .relatedTrainingProgramsImg{
-        width: 100%;
-        height: 141px !important;
-        object-fit: cover;
-        border-radius: 30px 30px 0px 0px;    
-    }
-}
-
-
-
-/* Mobile View end  */
-
 
 
 
@@ -744,3 +709,125 @@ footer {
 }
 
 
+
+body{
+    background: var(--bs-black) !important;
+}
+body main{
+    background: white;
+    transition: ease all .5s;
+     
+    transform: scale(1) translateX(0%);
+    overflow: auto;
+    width: 100%;
+    height: 100vh;
+
+}
+body:not(.smartMenu) main{
+    animation: h100 .3s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes h100{
+    0%{height:0vh;}
+    100%{height:100%;}
+}
+body.smartMenu main{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    transform: scale(0.8) translateX(-30%);
+    transform-origin: left center;
+    background: white;
+    transition: ease all .5s;
+}
+body .menu-perpective{
+    display: none;
+    opacity: 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+}
+body.smartMenu .menu-perpective{
+    display: block;
+    animation: opac1 .5s linear forwards;
+    animation-delay: .5s;
+}
+.menu-perpective .close{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@keyframes opac1 {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+
+
+
+/* --------------------------------  SOME GENRAL CLASS END --------------------------------  */
+
+/* Mobile View start  */
+
+@media all and (max-width: 767px) {
+
+    .mTinput{
+        width: auto;
+    }
+
+    .makePaymentColReverse{
+        flex-flow: column-reverse
+    }
+
+    .mobBanner{
+        width: 100%;
+        height: 113px !important;
+        object-fit: cover;
+        border-radius: 30px 30px 0px 0px;
+        margin-bottom: 23px;
+        margin-top: 43px;
+    }
+
+    .topRounded{
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .relatedTrainingProgramsImg{
+        width: 100%;
+        height: 141px !important;
+        object-fit: cover;
+        border-radius: 30px 30px 0px 0px;    
+    }
+
+
+    body.smartMenu main{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        transform: scale(1) translateX(-100%);
+        transform-origin: left center;
+        background: white;
+        transition: ease all .5s;
+    }
+
+    body .menu-perpective{
+        display: none;
+        opacity: 0;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+    }
+}
+
+
+
+/* Mobile View end  */
