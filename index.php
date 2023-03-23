@@ -993,9 +993,9 @@
   <div class="p-5 mt-5"></div>
 
   <div class="row">
-    <div class="col d-none d-sm-block">
-      <h2>COURSES OFFERING</h2>
-      <ul>
+    <div class="col-8 d-none d-sm-block">
+      <h3 class="AmsiProU text-secondary">COURSES OFFERING</h3>
+      <ul class="AmsiProR">
         <li>Oracle Fusion Technical</li>
         <li>Oracle Finance & PPM</li>
         <li>Oracel HCM Techn-Fun</li>
