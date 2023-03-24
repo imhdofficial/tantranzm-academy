@@ -31,7 +31,7 @@
 
   <main>
     <!-- --------------------- This is Header ---------------------  -->
-      <?php include 'includes/header.php'  ?>
+      <!-- <?php include 'includes/header.php'  ?> -->
 
 
 
@@ -212,31 +212,107 @@
     <!-- ---------------------Clients End---------------------  -->
     
 
-    <!-- ---------------------Mentor-led Learning Training Programs Start---------------------  -->
+
+
+
+
+        <!-- ---------------------Mentor-led Learning Training Programs Mobile View Start---------------------  -->
       
 
-      <div class="container">
-        <div class="mt-5 pt-5"></div>
-          <div class="text-center">
-            <h1 class="text-uppercase text-center AmsiProU" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Mentor-led Learning Training Programs</h1>
-          </div>
-        <div class="mt-4 pt-4"></div>
-
-            <!-- Card row 2 -->
-
-        <div class="row">
-          <div class="col-6">
-            <div class="bg-white me-2" data-aos="fade-in" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
+              <div class="container d-sm-none">
+                <div class="mt-5 pt-sm-5"></div>
+                  <div class="text-center">
+                    <h3 class="text-uppercase text-center AmsiProU">Mentor-led Learning Training Programs</h3>
                   </div>
-                </div>
+                <div class="mt-4 pt-4"></div>
 
-                  <div class="col-8" href>
+                <?php include 'includes/related-training-programs.php'  ?>
+                
+                <div class="mt-5 pt-5"></div>
+              </div>
+
+              <div class="container-flued bgLblue d-sm-none">
+                <p class="text-white text-center py-4 text-uppercase mb-0">View all Training Programs</p>
+              </div>
+
+
+
+
+        <!-- ---------------------Mentor-led Learning Training Programs Mobile View End---------------------  -->
+
+
+
+
+
+
+
+
+    <!-- ---------------------Mentor-led Learning Training Programs Start---------------------  -->
+      
+      <div class="bg-light d-none d-sm-block">
+        <div class="container">
+          <div class="mt-5 pt-5"></div>
+            <div class="text-center">
+              <h1 class="text-uppercase text-center AmsiProU" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Mentor-led Learning Training Programs</h1>
+            </div>
+          <div class="mt-4 pt-4"></div>
+
+              <!-- Card row 2 -->
+
+          <div class="row">
+            <div class="col-6">
+              <div class="bg-white me-2" data-aos="fade-in" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+                <div class="row">
+                  <div class="col-4 border-end">
+                    <div class="p-4">
+                      <img src="img/melcholder.jpg" alt="">
+                      <div class="pt-4"></div>
+                      <img src="img/bluebox.png" alt="">
+                    </div>
+                  </div>
+
+                    <div class="col-8" href>
+                      <div class="p-4 pb-2">
+                        <h5 class="brandonB">Oracle Fusion Technical</h5>
+                        <div class="d-flex">
+                          <img class="rateStar" src="img/upstar.png" alt="">
+                          <img class="rateStar" src="img/upstar.png" alt="">
+                          <img class="rateStar" src="img/upstar.png" alt="">
+                          <img class="rateStar" src="img/upstar.png" alt="">
+                          <img class="rateStar" src="img/downstar.png" alt="">
+                        </div>
+                        <br>
+                        <h6 class="brandonB">Skills</h6>
+                        <p class="text-black-50">
+                          Business Intelligence (BI)
+                          <br> BI - Yeh Dil Maange More
+                          <br> All about BI Publisher RTF Templates
+                          <br> Schedule BI Reports
+                          <br> BI as Outbound Integration Tool
+                          <br> BI ESS Jobs & Report Security
+                          <br> Oracle Transactional Business Intelligence (OTBI..
+                        </p>
+                        <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-6">
+              <div class="bg-white ms-2" data-aos="fade-in" data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+                <div class="row">
+                  <div class="col-4 border-end">
+                    <div class="p-4">
+                      <img src="img/melcholder.jpg" alt="">
+                      <div class="pt-4"></div>
+                      <img src="img/bluebox.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="col-8">
                     <div class="p-4 pb-2">
                       <h5 class="brandonB">Oracle Fusion Technical</h5>
                       <div class="d-flex">
@@ -260,188 +336,110 @@
                       <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
                     </div>
                   </div>
+                </div>
               </div>
             </div>
           </div>
 
+              <!-- Card row 2 -->
 
+          <div class="mt-4 pt-4"></div>
 
-          <div class="col-6">
-            <div class="bg-white ms-2" data-aos="fade-in" data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
-                  </div>
-                </div>
-
-                <div class="col-8">
-                  <div class="p-4 pb-2">
-                    <h5 class="brandonB">Oracle Fusion Technical</h5>
-                    <div class="d-flex">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/downstar.png" alt="">
+          <div class="row">
+            <div class="col-6">
+              <div class="bg-white me-2" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+                <div class="row">
+                  <div class="col-4 border-end">
+                    <div class="p-4">
+                      <img src="img/melcholder.jpg" alt="">
+                      <div class="pt-4"></div>
+                      <img src="img/bluebox.png" alt="">
                     </div>
-                    <br>
-                    <h6 class="brandonB">Skills</h6>
-                    <p class="text-black-50">
-                      Business Intelligence (BI)
-                      <br> BI - Yeh Dil Maange More
-                      <br> All about BI Publisher RTF Templates
-                      <br> Schedule BI Reports
-                      <br> BI as Outbound Integration Tool
-                      <br> BI ESS Jobs & Report Security
-                      <br> Oracle Transactional Business Intelligence (OTBI..
-                    </p>
-                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                  </div>
+
+                  <div class="col-8">
+                    <div class="p-4 pb-2">
+                      <h5 class="brandonB">Oracle Fusion Technical</h5>
+                      <div class="d-flex">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/downstar.png" alt="">
+                      </div>
+                      <br>
+                      <h6 class="brandonB">Skills</h6>
+                      <p class="text-black-50">
+                        Business Intelligence (BI)
+                        <br> BI - Yeh Dil Maange More
+                        <br> All about BI Publisher RTF Templates
+                        <br> Schedule BI Reports
+                        <br> BI as Outbound Integration Tool
+                        <br> BI ESS Jobs & Report Security
+                        <br> Oracle Transactional Business Intelligence (OTBI..
+                      </p>
+                      <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col-6">
+              <div class="bg-white ms-2" data-aos="fade-in" data-aos-delay="1200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+                <div class="row">
+                  <div class="col-4 border-end">
+                    <div class="p-4">
+                      <img src="img/melcholder.jpg" alt="">
+                      <div class="pt-4"></div>
+                      <img src="img/bluebox.png" alt="">
+                    </div>
+                  </div>
+
+                  <div class="col-8">
+                    <div class="p-4 pb-2">
+                      <h5 class="brandonB">Oracle Fusion Technical</h5>
+                      <div class="d-flex">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/upstar.png" alt="">
+                        <img class="rateStar" src="img/downstar.png" alt="">
+                      </div>
+                      <br>
+                      <h6 class="brandonB">Skills</h6>
+                      <p class="text-black-50">
+                        Business Intelligence (BI)
+                        <br> BI - Yeh Dil Maange More
+                        <br> All about BI Publisher RTF Templates
+                        <br> Schedule BI Reports
+                        <br> BI as Outbound Integration Tool
+                        <br> BI ESS Jobs & Report Security
+                        <br> Oracle Transactional Business Intelligence (OTBI..
+                      </p>
+                      <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="mt-5 pt-5"></div>
         </div>
-
-            <!-- Card row 2 -->
-
-        <div class="mt-4 pt-4"></div>
-
-        <div class="row">
-          <div class="col-6">
-            <div class="bg-white me-2" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
-                  </div>
-                </div>
-
-                <div class="col-8">
-                  <div class="p-4 pb-2">
-                    <h5 class="brandonB">Oracle Fusion Technical</h5>
-                    <div class="d-flex">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/downstar.png" alt="">
-                    </div>
-                    <br>
-                    <h6 class="brandonB">Skills</h6>
-                    <p class="text-black-50">
-                      Business Intelligence (BI)
-                      <br> BI - Yeh Dil Maange More
-                      <br> All about BI Publisher RTF Templates
-                      <br> Schedule BI Reports
-                      <br> BI as Outbound Integration Tool
-                      <br> BI ESS Jobs & Report Security
-                      <br> Oracle Transactional Business Intelligence (OTBI..
-                    </p>
-                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-6">
-            <div class="bg-white ms-2" data-aos="fade-in" data-aos-delay="1200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class="row">
-                <div class="col-4 border-end">
-                  <div class="p-4">
-                    <img src="img/melcholder.jpg" alt="">
-                    <div class="pt-4"></div>
-                    <img src="img/bluebox.png" alt="">
-                  </div>
-                </div>
-
-                <div class="col-8">
-                  <div class="p-4 pb-2">
-                    <h5 class="brandonB">Oracle Fusion Technical</h5>
-                    <div class="d-flex">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/upstar.png" alt="">
-                      <img class="rateStar" src="img/downstar.png" alt="">
-                    </div>
-                    <br>
-                    <h6 class="brandonB">Skills</h6>
-                    <p class="text-black-50">
-                      Business Intelligence (BI)
-                      <br> BI - Yeh Dil Maange More
-                      <br> All about BI Publisher RTF Templates
-                      <br> Schedule BI Reports
-                      <br> BI as Outbound Integration Tool
-                      <br> BI ESS Jobs & Report Security
-                      <br> Oracle Transactional Business Intelligence (OTBI..
-                    </p>
-                    <p class="mt-4 brandonB" style="color: #58C1A3;">On Premise/Online Training</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="mt-5 pt-5"></div>
       </div>
 
-      <div class="container-flued bgLblue">
+      <div class="container-flued bgLblue d-none d-sm-block">
         <p class="text-white text-center py-4 text-uppercase">View all Training Programs</p>
       </div>
 
       <div class="mt-5 pt-5"></div>
-        <div class="text-center">
-          <h6 class="text-uppercase text-center brandonB" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Solutions that deliver job-ready talent & Superior outcomes.</h6>
-        </div>
+      
 
-      <div class="container mt-5 brandonB">
-        <div class="row">
-          <div class="col-sm-3 col-12">
-            <div data-aos="fade-right" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class=" d-flex">
-                <img class="fourByfour" src="img/sevenfour1.svg" alt="">
-                <p class="px-3">Industry leaders co-create curvy curriculum</p>
-              </div>
-            </div>
-          </div>
+      <?php include 'includes/superior-outcomes.php'  ?>
 
-          <div class="col-sm-3 col-12">
-            <div data-aos="fade-right" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class=" d-flex">
-                <img class="fourByfour" src="img/sevenfour2.svg" alt="">
-                <p class="px-3">Customized critique for areas requiring improvement.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-12">
-            <div data-aos="fade-right" data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class=" d-flex">
-                <img class="fourByfour" src="img/sevenfour3.svg" alt="">
-                <p class="px-3">Concept Mastery through Hands-On Projects</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-12">
-            <div data-aos="fade-right" data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-              <div class=" d-flex">
-                <img class="fourByfour" src="img/sevenfour4.svg" alt="">
-                <p class="px-3">Access to 400+ extensively evaluated experts to address your inquiries.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
 
 
@@ -586,65 +584,21 @@
 
 
 
+
+
+
     <!-- Discover What We Offer: Our Commitment to Clients Start  -->
-
-
-    <div class="container">
+      <div class="container">
       <div class="pt-5 mt-5"></div>
       <h1 class="text-uppercase AmsiProU">Discover What We Offer: <br> Our Commitment to Clients</h1>
       <div class="pt-5 mt-3"></div>
-
-
-      <div class="row">
-        <div class="col-3 pe-5">
-          <p class="text-danger GraphikR Odometer" style="font-size: 60px;">1000+</p>
-          <p class="GraphikM">Quality trained fresher requirements</p>
-        </div>
-        <div class="col-4 px-5 border-2 border-start border-end border-secondary-subtle">
-          <p class="text-danger GraphikR odometerOptions" style="font-size: 60px;">10000+</p>
-          <p class="GraphikM">To train over 10000 <br> resources in couple of years</p>
-        </div>
-        <div class="col-3  ps-5">
-          <p class="text-danger GraphikR" style="font-size: 60px;">50+</p>
-          <p class="GraphikM">Technical Skill Development Courses</p>
-        </div>
       </div>
-      <div class="pt-5 mt-3"></div>
-      <div class="row">
-        <div class="col-6">
-          <p class="pe-4">
-            We are aiming to provide training to over 10,000 individuals in the upcoming years. We want to make sure that these individuals have the skills and knowledge they need to excel in their chosen fields. 
-          </p>
-        </div>
-        <div class="col-6">
-          <p class="ps-4">
-            We are aiming to provide training to over 10,000 individuals in the upcoming years. We want to make sure that these individuals have the skills and knowledge they need to excel in their chosen fields. 
-            <br><br>
-            We are aiming to provide training to over 10,000 individuals in the upcoming years. We want to make sure that these individuals have the skills and knowledge they need to excel in their chosen fields. 
-          </p>
-        </div>
-      </div>
-      <div class="bg-dark mt-5">
-        <div class="p-5">
-          <div class="row">
-            <div class="col-3">
-              <div class="pt-5"></div>
-              <div class="pt-5"></div>
-              <img src="img/white-logo.svg" alt="" class="img-fluid w-100">
-            </div>
-            <div class="col-1"></div>
-            <div class="col-8">
-              <p class="text-white fs-4 ps-5 GraphikR">
-                We also wanted to give job seekers the opportunity to learn new skills, stay current in their field, and increase their chances of finding a job. & stand out from the competition in order to land the job they want
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
+      <?php include 'includes/what-we-offer.php'  ?>
+    
     <!-- Discover What We Offer: Our Commitment to Clients End  -->
+
+
+
 
 
     <!-- Why Tantranzm? Start  -->
@@ -721,101 +675,19 @@
 
 
 
+
+
+
     <!-- The most effective  learning process for diverse professionals Start  -->
       
-
-
-      <div class="container-flued bg-dark overflow-hidden">
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <div class="px-5">
-                <h1 class="AmsiProU text-uppercase text-white">
-                  <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">The most effective</span> <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">learning process for</span> <span data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">diverse professionals</span>
-                </h1>
-
-                <div class="mt-3 pt-3"></div>
-                <a class="noDecor" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  <div class="border-bottom border-secondary d-flex justify-content-between mt-3">
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <p class="text-white">On-premise classroom</p> </div>
-                    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <img src="img/dropdown.png" alt=""> </div>
-                  </div>
-                </a>
-                <div class="collapse" id="collapseExample1">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
-                </div>
-
-
-
-                <a class="noDecor" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  <div class="border-bottom border-secondary d-flex justify-content-between mt-3">
-                    <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <p class="text-white">Online classroom</p> </div>
-                    <div data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <img src="img/dropdown.png" alt=""> </div>
-                  </div>
-                </a>
-                <div class="collapse" id="collapseExample2">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
-                </div>
-
-
-
-                <a class="noDecor" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  <div class="border-bottom border-secondary d-flex justify-content-between mt-3">
-                    <div data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <p class="text-white">College Training</p> </div>
-
-                    <div data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <img src="img/dropdown.png" alt=""> </div>
-                  </div>
-                </a>
-                <div class="collapse" id="collapseExample3">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
-                </div>
-
-
-
-                <a class="noDecor" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  <div class="border-bottom border-secondary d-flex justify-content-between mt-3">
-                    <div data-aos="fade-up" data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <p class="text-white">Corporate Training</p> </div>
-
-                    <div data-aos="fade-up" data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top"> <img src="img/dropdown.png" alt=""> </div>
-                  </div>
-                </a>
-                <div class="collapse" id="collapseExample4">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-
-
-            <div class="col-6">
-              <div class="pe-5 pt-3">
-                <img class="img-fluid" src="img/yt.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-4 mt-4"></div>
-      </div>
-
-
-
+      <?php include 'includes/most-effective.php'  ?>
 
     <!-- The most effective  learning process for diverse professionals End  -->
     
+
+
+
+
 
     <!-- our precious clients Start  -->
 
@@ -886,44 +758,8 @@
         <div class="pt-4 mt-4"></div>
       </div>
 
-      <div class="container-fluid position-relative" style="background-image: url(img/2p.jpg);">
-        <div class="pt-5"></div>
-        <div class=" mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-4 mt-4"></div>
-
-
-        <div class="redPA bgRRed text-white" data-aos="fade" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-          <div class="p-5">
-            <div class="pe-5">
-              <h6 class="AmsiProU">Why In-Person classes are more effective than online classes?</h6>
-              <div class="pt-3 mt-3"></div>
-              <p>On-premise classroom</p>
-              <div class="lodBar">
-                <div class="lOd1 bgOrange"></div>
-              </div>
-              <div class="pt-2 mt-2"></div>
-              <p>Online Classroom</p>
-              <div class="lodBar">
-                <div class="lOd2 bgDblue"></div>
-              </div>
-              <div class="pt-3 mt-3"></div>
-
-              <div class="pe-1 text-white-50">
-                <p class="tSize GraphikM">
-                  With the rise of remote learning due to the COVID-19 pandemic, more and more students are turning to online classes for their education. But is this really the best option for them?
-                  <br><br> 
-                  Offline classes promote group projects with other students, and it helps the students to learn new skills. Online education makes students more introverted as they connect with other students only through online chatting, not face-to-face interaction.
-
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <?php include 'includes/why-in-person.php'  ?>
+    
 
       
       
@@ -935,47 +771,7 @@
 
       <!-- Cut The Chatter, Join Tantranzm Academy Today Start  -->
 
-
-
-
-        <div class="container-flued bgDblue overflow-hidden">
-          <div class="container">
-            <div class="px-5">
-              <div class="row">
-                <div class="col-6">
-                  <div class="pt-5 mt-5"></div>
-                  <div class="pt-5 mt-5"></div>
-                  <div class="">
-                    <h1 class="text-white text-uppercase AmsiProU">Cut The Chatter, <br> Join Tantranzm Academy <br> Today</h1>
-                    <div class="pe-5 pt-3 ipStl noFc">
-                      <input class="border border-0 my-2" type="text" placeholder="Full Name">
-                      <br>
-                      <input class="border border-0 my-2" type="text" placeholder="Mobile Number">
-                      <br>
-                      <input class="border border-0 my-2" type="email" placeholder="Email Address">
-                    </div>
-                    <br>
-                    <button class="border border-0 py-3 px-4 bgLblue text-white">Submit</button>
-                  </div>
-                  <div class="pt-5 mt-5"></div>
-                  <div class="pt-4 mt-4"></div>
-                </div>
-
-                <div class="col-6">
-                  <div class="pt-5 mt-5"></div>
-                  <div class="pt-5 mt-5"></div>
-                  <div class="pt-3 mt-3"></div>
-                  <img src="img/inputgirl.png" alt="" class="px-5">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-        </div>
-
-
-
+        <?php include 'includes/form.php'  ?>
 
       <!-- Cut The Chatter, Join Tantranzm Academy Today End  -->
 
@@ -994,7 +790,7 @@
 
   <div class="row">
     <div class="col-8 d-none d-sm-block">
-      <h3 class="AmsiProU text-secondary">COURSES OFFERING</h3>
+      <h4 class="AmsiProU text-secondary">COURSES OFFERING</h4>
       <ul class="AmsiProR">
         <li>Oracle Fusion Technical</li>
         <li>Oracle Finance & PPM</li>
@@ -1020,10 +816,11 @@
         <li>SAP Fiori</li>
       </ul>
     </div>
-    <div class="col">
-      <ul>
+    <div class="col listStyleNone">
+      <ul class="AmsiProU p-0 lh-lg">
         <li>Home</li>
         <li>About us</li>
+        <br><br><br>
         <li>On Premise</li>
         <li>Online classes</li>
         <li>Corporate Training</li>
@@ -1032,8 +829,10 @@
         <li>Terms & Conditions</li>
         <li>Privacy policy</li>
       </ul>
-      <button>Login</button>
-      <button>Signup</button>
+      <div class="">
+        <button type="button" class="btn rounded-0 btn-danger">Login</button>
+        <button type="button" class="btn rounded-0 text-white" style=" background-color: #58C1A3; ">Signup</button>
+      </div>
     </div>
   </div>
 

@@ -30,7 +30,7 @@
   <body class="bg-light brandonR">
 
     <!-- --------------------- This is Header ---------------------  -->
-      <?php include 'includes/header.php'  ?>
+      <!-- <?php include 'includes/header.php'  ?> -->
 
 
 
@@ -43,21 +43,21 @@
 
         <div class="courseDetailPageBanner goodBackground" style="background-image: url(img/training-programs-list-page/banner-bg.jpg);">
           <div class="container">
-            <div class="pt-5"></div>
-            <div class="pt-5"></div>
+            <div class="pt-sm-5"></div>
+            <div class="pt-sm-5"></div>
             <div class="pt-5"></div>
 
             <div class="row">
-              <div class="col-5 pe-4">
+              <div class="col-sm-5 pe-4">
                 <h1 class="text-white AmsiProU text-uppercase">
                   The definitive <br> formula for <br> accelerated <br> learning
                 </h1>
               </div>
             </div>
             <div class="pt-5"></div>
-            <div class="pt-5"></div>
-            <div class="pt-5"></div>
-            <div class="mb-4"></div>
+            <div class="pt-sm-5"></div>
+            <div class="pt-sm-5"></div>
+            <div class="mb-sm-4"></div>
           </div>
         </div>
 
@@ -83,7 +83,7 @@
           <div class="pt-5"></div>
           <div class="pt-5"></div>
           <div class="row">
-            <div class="col-3">
+            <div class="col-sm-3 col-12">
               <p class="GraphikB">All Categories</p>
 
               <!-- Oracle start -->
@@ -211,10 +211,15 @@
               <!-- OTHER end  -->
 
             </div>
-            <div class="col-9">
-              <div class="d-flex justify-content-between">
-                <p class="GraphikSB">Total Result: 5</p>
-                <div class="d-flex align-items-center">
+            <div class="col-sm-9 col-12">
+              <div class="d-flex flex-wrap justify-content-between reverse">
+                <div class="d-flex align-items-center justify-content-between mt-3 mt-sm-0">
+                  <p class="GraphikSB mb-0">Total Result: 5</p>
+                  <a href="">  
+                    <img src="img/filters.svg" alt="" class="img-fluid ms-3 d-sm-none">
+                  </a>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
                   <p class="GraphikSB mb-0 me-2">Classroom Mode:</p>
                   <div class="dropdown">
                     <button class="btn rounded-0 btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -229,16 +234,16 @@
               </div>
               <hr>
               <div class="row">
-                <div class="col-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 position-relative">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                   <span class="posAbs">Oracle</span>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 col-12">
                   <div class="ps-2">
                     <div class="">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
                     </div>
-                    <p class="text-muted GraphikM pe-5 me-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
+                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
                     <div class="">
                       <img src="img/four-golden-star.svg" alt="">
                       <small class="GraphikM">4.7</small>
@@ -252,23 +257,23 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-1">
+                <div class="col-1 d-none d-sm-block">
                   <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
                 </div>
               </div>
               <hr>
 
               <div class="row">
-                <div class="col-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 position-relative">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                   <span class="posAbs">Oracle</span>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 col-12">
                   <div class="ps-2">
                     <div class="">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
                     </div>
-                    <p class="text-muted GraphikM pe-5 me-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
+                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
                     <div class="">
                       <img src="img/four-golden-star.svg" alt="">
                       <small class="GraphikM">4.7</small>
@@ -282,23 +287,23 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-1">
+                <div class="col-1 d-none d-sm-block">
                   <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
                 </div>
               </div>
               <hr>
 
               <div class="row">
-                <div class="col-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 position-relative">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                   <span class="posAbs">Oracle</span>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 col-12">
                   <div class="ps-2">
                     <div class="">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
                     </div>
-                    <p class="text-muted GraphikM pe-5 me-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
+                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
                     <div class="">
                       <img src="img/four-golden-star.svg" alt="">
                       <small class="GraphikM">4.7</small>
@@ -312,23 +317,23 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-1">
+                <div class="col-1 d-none d-sm-block">
                   <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
                 </div>
               </div>
               <hr>
 
               <div class="row">
-                <div class="col-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 position-relative">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                   <span class="posAbs">Oracle</span>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 col-12">
                   <div class="ps-2">
                     <div class="">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
                     </div>
-                    <p class="text-muted GraphikM pe-5 me-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
+                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
                     <div class="">
                       <img src="img/four-golden-star.svg" alt="">
                       <small class="GraphikM">4.7</small>
@@ -342,23 +347,23 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-1">
+                <div class="col-1 d-none d-sm-block">
                   <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
                 </div>
               </div>
               <hr>
 
               <div class="row">
-                <div class="col-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid">
+                <div class="col-sm-2 position-relative">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
                   <span class="posAbs">Oracle</span>
                 </div>
-                <div class="col-9">
+                <div class="col-sm-9 col-12">
                   <div class="ps-2">
                     <div class="">
                       <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
                     </div>
-                    <p class="text-muted GraphikM pe-5 me-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
+                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
                     <div class="">
                       <img src="img/four-golden-star.svg" alt="">
                       <small class="GraphikM">4.7</small>
@@ -372,7 +377,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-1">
+                <div class="col-1 d-none d-sm-block">
                   <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
                 </div>
               </div>

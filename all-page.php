@@ -14,7 +14,7 @@
 
     <h1>
         
-        <a href="training-programs-detail-page.php">training-programs-detail-page.php</a>
+        <a href="training-programs-detail-page.php">training-programs-detail-page.php  -------responsive-done</a>
         <br><br>
         <a href="mentorship.php">mentorship.php</a>
         <br><br>

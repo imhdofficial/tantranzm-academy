@@ -292,7 +292,7 @@
                 <div class="container">
                     <div class="row rounded-3 overflow-hidden">
                         <div class="col-12 text-white">
-                            <div class="p-5">
+                            <div class="p-sm-5">
                                 <div class="pt-3">
                                     <p class="fs-3 mb-1">Love to hear from you!</p>
                                     <p class="fs-3 fw-bold">Get in touch.</p>
