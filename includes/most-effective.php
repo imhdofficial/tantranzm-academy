@@ -8,8 +8,8 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-6">
-              <div class="px-5">
+            <div class="col-sm-6 col-12">
+              <div class="px-sm-5">
                 <h1 class="AmsiProU text-uppercase text-white">
                   <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">The most effective</span> <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">learning process for</span> <span data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">diverse professionals</span>
                 </h1>
@@ -76,7 +76,7 @@
             </div>
 
 
-            <div class="col-6">
+            <div class="col-6 d-none d-sm-block">
               <div class="pe-5 pt-3">
                 <img class="img-fluid" src="img/yt.png" alt="">
               </div>
@@ -84,8 +84,8 @@
           </div>
         </div>
 
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-4 mt-4"></div>
+        <div class="pt-5 mt-sm-5"></div>
+        <div class="pt-sm-4 mt-sm-4"></div>
       </div>
 
 

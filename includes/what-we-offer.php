@@ -1,12 +1,7 @@
 <!-- Discover What We Offer: Our Commitment to Clients Start  -->
 
 
-<div class="container">
-      <div class="pt-5 mt-5"></div>
-      <h1 class="text-uppercase AmsiProU">Discover What We Offer: <br> Our Commitment to Clients</h1>
-      <div class="pt-5 mt-3"></div>
-
-
+    <div class="container">
       <div class="row">
         <div class="col-3 pe-5">
           <p class="text-danger GraphikR Odometer" style="font-size: 60px;">1000+</p>
@@ -23,13 +18,13 @@
       </div>
       <div class="pt-5 mt-3"></div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-6 col-12">
           <p class="pe-4">
             We are aiming to provide training to over 10,000 individuals in the upcoming years. We want to make sure that these individuals have the skills and knowledge they need to excel in their chosen fields. 
           </p>
         </div>
-        <div class="col-6">
-          <p class="ps-4">
+        <div class="col-sm-6 col-12">
+          <p class="ps-sm-4">
             We are aiming to provide training to over 10,000 individuals in the upcoming years. We want to make sure that these individuals have the skills and knowledge they need to excel in their chosen fields. 
             <br><br>
             We are aiming to provide training to over 10,000 individuals in the upcoming years. We want to make sure that these individuals have the skills and knowledge they need to excel in their chosen fields. 
@@ -39,14 +34,14 @@
       <div class="bg-dark mt-5">
         <div class="p-5">
           <div class="row">
-            <div class="col-3">
+            <div class="col-3 d-none d-sm-block">
               <div class="pt-5"></div>
               <div class="pt-5"></div>
               <img src="img/white-logo.svg" alt="" class="img-fluid w-100">
             </div>
-            <div class="col-1"></div>
-            <div class="col-8">
-              <p class="text-white fs-4 ps-5 GraphikR">
+            <div class="col-1 d-none d-sm-block"></div>
+            <div class="col-sm-8 col-12">
+              <p class="text-white fs-4 ps-sm-5 GraphikR">
                 We also wanted to give job seekers the opportunity to learn new skills, stay current in their field, and increase their chances of finding a job. & stand out from the competition in order to land the job they want
               </p>
             </div>
@@ -56,4 +51,4 @@
     </div>
 
 
-    <!-- Discover What We Offer: Our Commitment to Clients End  -->
+<!-- Discover What We Offer: Our Commitment to Clients End  -->

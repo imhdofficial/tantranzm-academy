@@ -870,6 +870,11 @@ body.smartMenu .menu-perpective{
     .courseDetailPageBanner{
         background-position: 0 !important;
     }
+
+    .numbtn{
+        width: 100%;
+        
+    }
 }
 
 

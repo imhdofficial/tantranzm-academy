@@ -464,7 +464,7 @@
             </div>
           <div class=" pt-5"></div>
 
-          <div class="owl-carousel owl-theme ps-5 ms-4">
+          <div class="owl-carousel owl-theme ps-sm-5 ms-sm-4">
             <div class="item" data-aos="fade-right" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <div class="bg-white p-5 ">
                 <img style="width: 101px;" src="img/lwb-icons.png" alt="">
@@ -526,12 +526,12 @@
 
       <div class="container-fluid bgYellow">
         <div class="pt-5"></div>
-        <div class="container px-5">
+        <div class="container px-sm-5">
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-6 col-12">
               <h1 class="text-uppercase AmsiProU"  data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Get Hired by Industry <br> Leading Companies</h1>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6 col-12">
               <p class="text-capitalize brandonB"  data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">If you're committed to finding out about the latest <br> offers and deals, why not join?</p>
               <div class="d-flex noFc"  data-aos="fade-right" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
                 <input class="numbtn ps-3" type="text" placeholder="Enter Mobile Number">
@@ -559,9 +559,9 @@
           <div class="pt-3 mt-3"></div>
 
           <div class="row">
-            <div class="col-7"></div>
+            <div class="col-7 d-none d-sm-block"></div>
 
-            <div class="col-5">
+            <div class="col-sm-5 col-12">
               <h1 class="AmsiProU text-white text-uppercase"  data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Helping people <br> Transform The <br> World</h1>
               <p class="text-white GraphikM" data-aos="fade-up" data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
                 Education is one of the most important aspects of human life, yet many don't have access to the same opportunities that others do. Explore how we can help people transform the world by providing them with quality training at discounted prices, so they can pursue their dreams and reach their goals.
@@ -605,24 +605,24 @@
     
     
     <div class="container-flued bg-white">
-      <div class="pt-5 mt-5"></div>
-      <div class="pt-3 mt-3"></div>
+      <div class="pt-sm-5 mt-sm-5"></div>
+      <div class="pt-3 mt-sm-3"></div>
       <div class="container">
         <div class="row">
-          <div class="col-5">
+          <div class="col-sm-5 col-12">
             <div class="d-flex justify-content-center">
               <h1 class="text-uppercase AmsiProU mt-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">WHY <br> <span class="coloutOrng">tantranzm?</span></h1>
             </div>
-            <div class="pt-5 mt-5"></div>
-            <div class="pt-4 mt-2"></div>
+            <div class="pt-sm-5 mt-sm-5"></div>
+            <div class="pt-sm-4 mt-sm-2"></div>
 
             <div>
-              <img class="img-fluid" src="img/rohit.png" alt="">
+              <img class="img-fluid d-none d-sm-block" src="img/rohit.png" alt="">
             </div>
           </div>
 
 
-          <div class="col-7 position-relative">
+          <div class="col-sm-7 col-12 position-relative">
             <div class="alphaList">
               <ul>
                 <div class="border-bottom">
@@ -865,10 +865,10 @@
               dots:false,
               responsive:{
                   0:{
-                      items:1
+                      items:1.2
                   },
                   600:{
-                      items:3
+                      items:3.3
                   },
                   1000:{
                       items:3.5

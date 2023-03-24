@@ -1,13 +1,13 @@
         <div class="container-flued bgDblue overflow-hidden">
           <div class="container">
-            <div class="px-5">
+            <div class="px-sm-5">
               <div class="row">
-                <div class="col-6">
+                <div class="col-sm-6 col-12">
                   <div class="pt-5 mt-5"></div>
                   <div class="pt-5 mt-5"></div>
                   <div class="">
                     <h1 class="text-white text-uppercase AmsiProU">Cut The Chatter, <br> Join Tantranzm Academy <br> Today</h1>
-                    <div class="pe-5 pt-3 ipStl noFc">
+                    <div class="pe-sm-5 pt-3 ipStl noFc">
                       <input class="border border-0 my-2" type="text" placeholder="Full Name">
                       <br>
                       <input class="border border-0 my-2" type="text" placeholder="Mobile Number">
@@ -20,7 +20,7 @@
                   <div class="pt-5 mt-5"></div>
                   <div class="pt-4 mt-4"></div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 d-none d-sm-block">
                   <div class="pt-5 mt-5"></div>
                   <div class="pt-5 mt-5"></div>
                   <div class="pt-3 mt-3"></div>
