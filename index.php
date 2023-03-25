@@ -42,13 +42,15 @@
     <!-- ---------------------Banner Start---------------------  -->
 
 
-      <div class="container-fluid">
-      <div class="px-4">
+      <div class="container-sm-fluid">
+      <div class="px-sm-4">
       <div class=" mTbanner position-relative d-flex wFull ">
         <div class=" d-flex position-relative">
-          <div class="col-12 col-sm-6 m-0 p-5 wFull" style="background: #171717;">
-            <div class="py-5 px-4">
-              <div class="mt-0   pt-0 "></div>
+
+          <div class="col-12 col-sm-6 m-0 p-sm-5 wFull" style="background: #171717;">
+            <div class="py-sm-5 px-sm-4 px-2 py-5">
+              <div class="mt-sm-3 pt-sm-3"></div>
+
               <div style="overflow: hidden;">
                 <h1 class="text-white AmsiProU text-uppercase display-4" >
                    
@@ -97,9 +99,9 @@
             </div>
           </div>
 
-          <div class="col-6 m-0 p-0 wFull position-relative d-none d-sm-block" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
+          <div class="col-sm-6 col-12 m-0 p-0 wFull position-relative" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
             <div class="">
-              <div class="row d-flex d-none d-sm-block">
+              <div class="row d-flex">
                 <div class="mt-3 pt-3"></div>
                 <img src="img/girlo.png" alt="" class="mTgirl" data-aos="fade"
                 data-aos-delay="400"

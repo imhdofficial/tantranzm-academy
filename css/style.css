@@ -311,9 +311,6 @@ header .dropDown .dropdown-menu{
     top: 6px;
 }
 
-.mTbanner{
-    height: 614px;
-}
 
 
 .myBtn{
@@ -789,6 +786,11 @@ body.smartMenu .menu-perpective{
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.mTgirl{
+    position: absolute;
+    bottom: 139px;
 }
 
 @keyframes opac1 {
