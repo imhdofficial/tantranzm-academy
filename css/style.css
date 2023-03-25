@@ -44,10 +44,10 @@
 
 @font-face {
     font-family: 'AmsiPro-Regular';
-    src: url('../AmsiPro-Regular.eot');
-    src: url('../AmsiPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../AmsiPro-Regular.woff2') format('woff2'),
-        url('../AmsiPro-Regular.woff') format('woff');
+    src: url('../font/AmsiPro-Regular.eot');
+    src: url('../font/AmsiPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/AmsiPro-Regular.woff2') format('woff2'),
+        url('../font/AmsiPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -776,7 +776,7 @@ body .menu-perpective{
     right: 0;
     bottom: 0;
     padding-right: 100px;
-
+    width: 35%;
 }
 body.smartMenu .menu-perpective{
     display: block;
@@ -891,6 +891,16 @@ body.smartMenu .menu-perpective{
 .container-custom-fluid{
     width:100%;
     margin:0 auto;
+}
+
+.menu-perpective ul{
+    padding: 0;
+    list-style: none;
+}
+
+.menu-perpective .courseOffering li{
+    margin-bottom: 5px;
+    opacity: 0.8;
 }
 
 @media all and (min-width:1350px){
