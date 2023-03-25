@@ -42,23 +42,23 @@
     <!-- ---------------------Banner Start---------------------  -->
 
 
-      <div class="container-sm-fluid">
-      <div class="px-sm-4">
+      <div class="container-custom-fluid">
+      <div class="">
       <div class=" mTbanner position-relative d-flex wFull ">
-        <div class=" d-flex position-relative">
+        <div class=" d-flex position-relative w-100">
 
-          <div class="col-12 col-sm-6 m-0 p-sm-5 wFull" style="background: #171717;">
-            <div class="py-sm-5 px-sm-4 px-2 py-5">
-              <div class="mt-sm-3 pt-sm-3"></div>
+          <div class="col-12 col-sm-6 m-0 p-sm-4 wFull" style="background: #171717;">
+            <div class=" px-2 px-sm-4 py-5">
+              <!-- <div class="mt-sm-3 pt-sm-3"></div> -->
 
               <div style="overflow: hidden;">
-                <h1 class="text-white AmsiProU text-uppercase display-4" >
+                <h1 class="text-white AmsiProU text-uppercase display-6" >
                    
                     <span style="display:block;" data-aos="fade-up"
                     data-aos-delay="50"
                     data-aos-duration="700"
                     data-aos-easing="ease-in-out"
-                    data-aos-anchor-placement="top-center">Training Excellence</span>
+                    data-aos-anchor-placement="top">Training Excellence</span>
                    
                    
                     <span style="display:block;" data-aos="fade-up"
@@ -66,7 +66,7 @@
                     data-aos-duration="700"
                     data-aos-easing="ease-in-out"
                     data-aos-anchor-placement="top">With Assured</span>
-                   
+                   <br/>
                     <span style="display:block;" data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-duration="700"
@@ -109,25 +109,13 @@
                 data-aos-easing="ease-in-out"
                 data-aos-anchor-placement="top">
                 </div>
-                <div class="bgDblue p-4 inputBflow" data-aos="slide-left"
-                data-aos-delay="500"
-                data-aos-duration="700"
-                data-aos-easing="ease-in-out"
-                data-aos-anchor-placement="top">
+                <div class="bgDblue p-4 inputBflow"  >
                   <div class="m-2">
                      
-                  <h5 class="AmsiPro text-white text-uppercase mb-3" data-aos="fade-up"
-                  data-aos-delay="900"
-                  data-aos-duration="700"
-                  data-aos-easing="ease-in-out"
-                  data-aos-anchor-placement="top">Let's Rise Together</h5>
+                  <h5 class="AmsiPro text-white text-uppercase mb-3"  >Let's Rise Together</h5>
                      
 
-                  <div class="d-flex noFc" data-aos="fade-up"
-                  data-aos-delay="1200"
-                  data-aos-duration="700"
-                  data-aos-easing="ease-in-out"
-                  data-aos-anchor-placement="top">
+                  <div class="d-flex noFc">
                     <input class="inputB1" type="text" placeholder="Name">
                     <input class="inputB2" type="text" placeholder="Mobile Number">
                     <a href="#">

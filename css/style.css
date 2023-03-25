@@ -456,8 +456,8 @@ footer {
 .inputB2{
     border: none;
     padding-left: 17px;
-    width: 364px;
-    margin-right: 31px;
+    width: 100%;
+    margin-right: 20px;
 }
 
 .learnWithBest{
@@ -736,6 +736,7 @@ footer {
 
 
 body{
+    font-size: 15px;
     background: var(--bs-black) !important;
 }
 body main{
@@ -790,7 +791,7 @@ body.smartMenu .menu-perpective{
 
 .mTgirl{
     position: absolute;
-    bottom: 139px;
+    bottom: 70px;
 }
 
 @keyframes opac1 {
@@ -887,3 +888,13 @@ body.smartMenu .menu-perpective{
 
 
 /* Mobile View end  */
+.container-custom-fluid{
+    width:100%;
+    margin:0 auto;
+}
+
+@media all and (min-width:1350px){
+    .container-custom-fluid{
+        max-width: 1349px;
+    }
+}
