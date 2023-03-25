@@ -277,15 +277,20 @@ input{
 
 }
 
-.dropDown .dropdown-item{
-    padding: 0;
-    padding-top: 3px;
-    padding-bottom: 6px;
-    padding-right: 53px;
-    line-height: 0;
+header .dropDown .dropdown-item{
+    padding: 10px 50px 10px 20px;
+    text-align: left;
 }
 
-
+header .dropDown-menu > li{
+    border-bottom: solid 1px #ddd;
+}
+header .dropDown li:last-child{
+    border-bottom: none;
+}
+header .dropDown .dropdown-menu{
+    padding: 10px 0 15px 0;
+}
 
 .mTinput input{
     border: none;

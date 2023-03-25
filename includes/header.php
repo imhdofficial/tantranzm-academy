@@ -7,16 +7,16 @@
               <div class="d-none d-sm-block">
                 <ul class="d-flex text-decoration-none m-0">  
                   <div class="dropDown">
-                    <div class="text-decoration-none d-flex dropdown-toggle" href="#" type="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                    <div class="text-decoration-none d-flex dropdown-toggle"   type="button" data-bs-target="" data-bs-toggle="dropdown" aria-expanded="false"></a>
                       <li class="tZli">Our Solutions</li>
                       <img class="ps-2" src="img/d-down.svg" alt="">
                     </div>
 
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="    box-shadow: 0px 0px 2px;">
                       <li><a class="dropdown-item" href="#">For Individuals</a></li>
-                      <hr>
+                     
                       <li><a class="dropdown-item" href="#">For Corporates</a></li>
-                      <hr>
+                   
                       <li><a class="dropdown-item" href="#">For Colleges</a></li>
                     </ul>
                   </div>

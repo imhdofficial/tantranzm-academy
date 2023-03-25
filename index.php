@@ -31,7 +31,7 @@
 
   <main>
     <!-- --------------------- This is Header ---------------------  -->
-      <!-- <?php include 'includes/header.php'  ?> -->
+      <?php include 'includes/header.php'  ?> 
 
 
 
@@ -48,7 +48,7 @@
         <div class=" d-flex position-relative">
           <div class="col-12 col-sm-6 m-0 p-5 wFull" style="background: #171717;">
             <div class="py-5 px-4">
-              <div class="mt-3 pt-3"></div>
+              <div class="mt-0   pt-0 "></div>
               <div style="overflow: hidden;">
                 <h1 class="text-white AmsiProU text-uppercase display-4" >
                    
@@ -843,7 +843,7 @@
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="js/odometer.js"></script>
 
 
