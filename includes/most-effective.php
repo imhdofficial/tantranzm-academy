@@ -3,8 +3,8 @@
 
 
     <div class="container-flued bg-dark overflow-hidden">
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
+        <div class="pt-5 mt-sm-5"></div>
+        <div class="pt-sm-5 mt-sm-5"></div>
 
         <div class="container">
           <div class="row">

@@ -31,7 +31,7 @@
 
   <main>
     <!-- --------------------- This is Header ---------------------  -->
-      <?php include 'includes/header.php'  ?> 
+      <!-- <?php include 'includes/header.php'  ?>  -->
 
 
 
@@ -99,7 +99,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-12 m-0 p-0 wFull position-relative" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
+          <div class="col-sm-6 col-12 m-0 p-0 wFull position-relative d-none d-sm-block" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
             <div class="">
               <div class="row d-flex">
                 <div class="mt-3 pt-3"></div>
@@ -142,7 +142,7 @@
 
       <div class="container-flued bg-white position-relative">
         <div class="container">
-          <div class="pt-5 mt-5"></div>
+          <div class="pt-5 mt-sm-5"></div>
           <div class="text-center">
             <h1 class="AmsiProU" data-aos="fade-up"
                     data-aos-delay="300"
@@ -158,44 +158,44 @@
         </div>
 
         <div class="container">
-          <div class="d-flex flex-wrap justify-content-center clientRow align-items-center">
+            <div class="d-flex flex-wrap justify-content-center clientRow align-items-center">
               <img src="img/tzc1.png" alt="" data-aos="fade" data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img class="mx-sm-5" src="img/tzc2.png" alt="" data-aos="fade" data-aos-delay="850" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img class="mx-sm-5" src="img/tzc5.png" alt="" data-aos="fade" data-aos-delay="1200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img src="img/tzc3.png" alt="" data-aos="fade" data-aos-delay="1350" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             </div>
             
-            <div class="d-flex flex-wrap justify-content-center clientRow align-items-center mt-5">
+            <div class="d-flex flex-wrap justify-content-center clientRow align-items-center mt-sm-5">
               <img src="img/tzc4.png" alt="" data-aos="fade" data-aos-delay="1500" data-aos-duration="650" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img class="mx-sm-5" src="img/tzc8.png" alt="" data-aos="fade" data-aos-delay="950" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img class="mx-sm-5" src="img/tzc14.png" alt="" data-aos="fade" data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img src="img/tzc6.png" alt="" data-aos="fade" data-aos-delay="1500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-          </div>
+            </div>
 
-          <div class="d-flex flex-wrap justify-content-center clientRow align-items-center mt-5">
+          <div class="d-flex flex-wrap justify-content-center clientRow align-items-center mt-sm-5">
             <img src="img/tzc7.png" alt="" data-aos="fade" data-aos-delay="1300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             <img class="mx-sm-5" src="img/tzc11.png" alt="" data-aos="fade" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             <img class="mx-sm-5" src="img/tzc10.png" alt="" data-aos="fade" data-aos-delay="1150" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             <img src="img/tzc9.png" alt="" data-aos="fade" data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
           </div>
 
-          <div class="d-flex flex-wrap justify-content-center clientRow align-items-center mt-5">
+          <div class="d-flex flex-wrap justify-content-center clientRow align-items-center mt-sm-5">
             <img class="mx-sm-5" src="img/tzc12.png" alt="" data-aos="fade" data-aos-delay="1450" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             <img class="mx-sm-5" src="img/tzc13.png" alt="" data-aos="fade" data-aos-delay="1250" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             <img src="img/tzc15.png" alt="" data-aos="fade" data-aos-delay="1050" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
           </div>
 
 
-          <div class="pt-5 mt-5"></div>
+          <div class="pt-5 mt-sm-5"></div>
 
           <div class="d-flex aline-item-center justify-content-center">
             <button class="myBtn p-3" data-aos="fade" data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Explore All Training Programs</button>
           </div>
         </div>
 
-        <div class="pt-5 mt-5"></div>
+        <div class="pt-5 mt-sm-5"></div>
 
-        <img src="img/tzcbg.png" alt="" class="clientBg" data-aos="fade" data-aos-delay="1100" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+        <img src="img/tzcbg.png" alt="" class="clientBg d-none d-sm-block" data-aos="fade" data-aos-delay="1100" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
       </div>
 
 
@@ -448,7 +448,7 @@
     <div class="container-flued bg-danger overflow-hidden">
         <div class="learnWithBest">
           <div class="pt-5"></div>
-          <div class="pt-5"></div>
+          <div class="pt-sm-5"></div>
             <div class="container">
               <h1 class="text-uppercase text-white AmsiProU"  data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Learn with the best</h1>
             </div>
@@ -544,9 +544,9 @@
       
       <div class="container-fluid" style="background-image: url(img/helpbg.jpg); border-top: 7px solid red;">
         <div class="container overflow-hidden">
-          <div class="pt-5 mt-5"></div>
-          <div class="pt-5 mt-5"></div>
-          <div class="pt-3 mt-3"></div>
+          <div class="pt-5 mt-sm-5"></div>
+          <div class="pt-sm-5 mt-sm-5"></div>
+          <div class="pt-sm-3 mt-sm-3"></div>
 
           <div class="row">
             <div class="col-7 d-none d-sm-block"></div>
@@ -560,9 +560,9 @@
               <button class="bg-transparent border-white px-4 py-3 text-white" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Explore Now <img class="ps-3" src="img/aero.png" alt=""></button>
             </div>
           </div>
-          <div class="pt-5 mt-5"></div>
-          <div class="pt-5 mt-5"></div>
-          <div class="pt-4 mt-4"></div>
+          <div class="pt-5 mt-sm-5"></div>
+          <div class="pt-sm-5 mt-sm-5"></div>
+          <div class="pt-sm-4 mt-sm-4"></div>
 
 
         </div>
