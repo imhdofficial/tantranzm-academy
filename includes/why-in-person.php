@@ -1,16 +1,16 @@
-    <div class="container-fluid position-relative" style="background-image: url(img/2p.jpg);">
+    <div class="container-fluid position-relative bgRedInMob" style="background-image: url(img/2p.jpg);">
         <div class="pt-5"></div>
-        <div class=" mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-4 mt-4"></div>
+        <div class=" mt-sm-5"></div>
+        <div class="pt-sm-5 mt-sm-5"></div>
+        <div class="pt-sm-5 mt-sm-5"></div>
+        <div class="pt-sm-5 mt-sm-5"></div>
+        <div class="pt-sm-5 mt-sm-5"></div>
+        <div class="pt-sm-4 mt-sm-4"></div>
 
 
         <div class="redPA bgRRed text-white" data-aos="fade" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
-          <div class="p-5">
-            <div class="pe-5">
+          <div class="p-sm-5">
+            <div class="pe-sm-5">
               <h6 class="AmsiProU">Why In-Person classes are more effective than online classes?</h6>
               <div class="pt-3 mt-3"></div>
               <p>On-premise classroom</p>

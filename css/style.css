@@ -883,6 +883,30 @@ body.smartMenu .menu-perpective{
         width: 100%;
         
     }
+
+    .clientRow{
+        flex-direction: column;
+    }
+
+    .clientRow img{
+        padding: 17px 0;
+    }
+
+    .owl-nav{
+        display: none;
+    }
+
+    .redPA{
+        position: relative;
+        right: 0;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .bgRedInMob{
+        background-color: #B8353F !important;
+        background-image: none !important;
+    }
 }
 
 
