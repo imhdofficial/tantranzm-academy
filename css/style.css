@@ -214,6 +214,9 @@
 /* --------------------------------  SOME GENRAL CLASS START --------------------------------  */
 
 
+.logo{}
+.logo img{height: 60px;}
+
 input{
     border-radius: 0 !important;
 }
@@ -221,7 +224,10 @@ input{
 .listStyleNone li{
     list-style: none;
 }
-
+.listStyleNone li a{
+    color: #fff;
+    text-decoration: none;
+}
 .wFull{
     width: 100%;
 }
@@ -280,6 +286,9 @@ input{
 header .dropDown .dropdown-item{
     padding: 10px 50px 10px 20px;
     text-align: left;
+}
+header .dropDown .dropdown-item:hover{
+    background: var(--bs-gray-200);
 }
 
 header .dropDown-menu > li{
@@ -447,8 +456,10 @@ footer {
 .inputB1{
     border: none;
     padding-left: 17px;
-    width: 157px;
-    background-color: #dedede;
+    width: 60%;
+    /* background-color: #dedede; */
+    height: 55px;
+    margin-right: 15px;
 }
 
 
@@ -457,7 +468,17 @@ footer {
     border: none;
     padding-left: 17px;
     width: 100%;
-    margin-right: 20px;
+    margin-right: 15px;
+    height: 55px;
+}
+.inputB3.btn{
+    height: 55px;
+    padding: 0;
+    background: #56c2a3 url(../img/numbtn.svg) 50% 50% no-repeat;
+    width: 100px;
+    display: block;
+    border-radius: 0;
+    background-size: cover;
 }
 
 .learnWithBest{
@@ -506,6 +527,7 @@ footer {
 .alphaList ul li {
     counter-increment: listStyle;
     padding: 12px 0;
+    position: relative;
 }
   
 .alphaList ul li::before {
@@ -653,12 +675,11 @@ footer {
 
 .mentorshipList ul li::before {
     position: absolute;
-    left: -50px;
+    left: -38px;
     content: url(../img/mentorship/li.svg);
     display: inline-block;
     margin-right: 1.7em;
     text-align: center;
-    
 }
 
 .mentorshipList ul {
@@ -666,6 +687,7 @@ footer {
     columns: 1;
     margin-top: 4.5rem;
     list-style-type: none;
+    position: relative;
 }
   
 .mentorshipList ul li {
@@ -720,7 +742,6 @@ footer {
     position: absolute;
     bottom: 28px;
     right: 28px;
-    background-color: #f3943d63;
     color: white;
     padding: 0px 4px;
     border-radius: 41%;
@@ -776,7 +797,7 @@ body .menu-perpective{
     right: 0;
     bottom: 0;
     padding-right: 100px;
-    width: 35%;
+    width: 37%;
 }
 body.smartMenu .menu-perpective{
     display: block;
@@ -785,13 +806,14 @@ body.smartMenu .menu-perpective{
 }
 .menu-perpective .close{
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 10px;
+    top: 10px;
 }
 
 .mTgirl{
     position: absolute;
     bottom: 70px;
+    top: 0;
 }
 
 @keyframes opac1 {
@@ -799,13 +821,146 @@ body.smartMenu .menu-perpective{
     100%{opacity:1;}
 }
 
+a.text-decoratin-none{
+    text-decoration: none;
+    color: inherit;
 
+}
+
+/* desktop */
+@media all and (min-width: 992px) {
+    
+    .mainBanner{
+        height: 510px;
+    }
+}
 
 /* --------------------------------  SOME GENRAL CLASS END --------------------------------  */
 
 /* Mobile View start  */
 
-@media all and (max-width: 767px) {
+
+@media all and (max-width: 991px) {
+    .yellowBorder{
+        border-left: 14px solid #F8CC6A;
+    }
+    #allCategories .applyFilters{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    #allCategories .close{
+        position: fixed;
+        background: #000000b8;
+        right: 10px;
+        top: 10px;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        transform: scale(0.8);
+    }
+    #allCategories{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    padding: 30px  20px;
+}
+
+    .mentorshipPage .courseDetailPageBanner{
+        background-position: 75% !important;
+    }
+    .ipStl input{
+        width: 100%;
+    }
+.clientsLogos{}
+.clientsLogos > div{
+    display: flex;
+    align-items: center;
+    min-height: 62px;
+    justify-content: center;
+}
+.clientsLogos > div > img{
+    max-height: 32px;
+}
+    .alphaList ul{
+    margin-top: 20px;
+}
+    .alphaList ul li::before{
+        left: -33px;
+        width: 22px;
+        height: 22px;
+        font-size: 80%;
+        top: 14px;
+    }
+
+    .helpingSection{
+        background-position: 38%;
+    }
+    .becomeCertified .clientRow{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+    }
+    .becomeCertified .clientRow > span{
+        width: 50%;
+        flex: 0 0 auto;
+        display: flex !important;
+        justify-content: center;
+    }
+
+    .btn.masterSearch{
+        padding: 0;
+        width: 25px;
+        opacity: 0.7;
+    }
+    .btn.masterSearch img{
+         width: 100%;
+    }
+    .inputB3.btn{
+    width: 100%;
+    background: #56c2a3;
+    height: 45px;
+    margin-top: 0;
+    position: relative;
+}
+
+.inputB3.btn:after{
+    content: "Get Offers";
+    color: #fff;
+    font-family: 'AmsiPro';
+    font-size: 110%;
+}
+    .inputB1, .inputB2{
+        height: 45px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .flex-xs-wrap{
+        flex-wrap: wrap;
+    }
+    .w-xs-100{
+        width: 100% !important;
+    }
+    .m-xs-0{
+        margin: 0 !important;
+    }
+    .inputBflow{
+        position: static;
+        bottom: 0px;
+        width: auto;
+        right: 0;
+    }
+    .logo img{height: 50px;}
 
     .mTinput{
         width: auto;
@@ -861,7 +1016,8 @@ body.smartMenu .menu-perpective{
         right: 0;
         bottom: 0;
         left: 0;
-
+        width: 100%;
+        padding: 0 20px;
     }
 
     .advantagesBar{
@@ -885,11 +1041,14 @@ body.smartMenu .menu-perpective{
     }
 
     .clientRow{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .clientRow img{
         padding: 17px 0;
+        width: 80%;
+        max-height: 100px;
+        object-fit: contain;
     }
 
     .owl-nav{

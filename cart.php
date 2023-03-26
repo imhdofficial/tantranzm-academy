@@ -30,7 +30,7 @@
   <body class="bg-light GraphikR">
 
     <!-- --------------------- This is Header ---------------------  -->
-      <!-- <?php include 'includes/header.php'  ?> -->
+     <?php include 'includes/header.php'  ?> 
 
 
 

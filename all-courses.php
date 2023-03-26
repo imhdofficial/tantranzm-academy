@@ -15,8 +15,8 @@
 
     <link rel="stylesheet" href="css/aos.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet" >
-    <script src="js/jquery.min.js"></script>
-    <script src="js/odometer.min.js"></script>
+    
+     
   </head>
 
 
@@ -30,7 +30,7 @@
   <body class="bg-light brandonR">
 
     <!-- --------------------- This is Header ---------------------  -->
-      <!-- <?php include 'includes/header.php'  ?> -->
+     <?php include 'includes/header.php'  ?> 
 
 
 
@@ -57,7 +57,7 @@
             <div class="pt-5"></div>
             <div class="pt-sm-5"></div>
             <div class="pt-sm-5"></div>
-            <div class="mb-sm-4"></div>
+             
           </div>
         </div>
 
@@ -83,7 +83,17 @@
           <div class="pt-5"></div>
           <div class="pt-5"></div>
           <div class="row">
-            <div class="col-sm-3 col-12">
+            <div class="d-block d-lg-none mb-4">
+                <button class="align-items-baseline btn d-flex justify-content-between text-start w-100" style="    background: var(--bs-gray-300);" onclick="toggleFilters()">   
+                <span>
+                    <img src="img/filter-icon.svg" alt="" class="img-fluid me-2 d-sm-none " style="width:22px;">
+                     Filter
+                     </span>
+                     <img class="ps-2" src="img/d-down.svg" alt="">
+                  </button>
+                  </div>
+            <div class="col-sm-3 col-12 d-none d-lg-block" id="allCategories">
+              <button class="btn close d-lg-none" onclick="toggleFilters()"><img src="img/close.svg" alt=""></button>
               <p class="GraphikB">All Categories</p>
 
               <!-- Oracle start -->
@@ -209,15 +219,15 @@
                   <p class="my-0 ms-3">Fullstack</p>
               </div>
               <!-- OTHER end  -->
-
+              <button class="applyFilters btn btn-lg btn-primary rounded-0 w-100 d-lg-none">
+                Apply Filters
+              </button>
             </div>
             <div class="col-sm-9 col-12">
               <div class="d-flex flex-wrap justify-content-between reverse">
                 <div class="d-flex align-items-center justify-content-between mt-3 mt-sm-0">
                   <p class="GraphikSB mb-0">Total Result: 5</p>
-                  <a href="">  
-                    <img src="img/filters.svg" alt="" class="img-fluid ms-3 d-sm-none">
-                  </a>
+                  
                 </div>
                 <div class="d-flex align-items-center justify-content-between">
                   <p class="GraphikSB mb-0 me-2">Classroom Mode:</p>
@@ -233,155 +243,10 @@
                 </div>
               </div>
               <hr>
-              <div class="row">
-                <div class="col-sm-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
-                  <span class="posAbs">Oracle</span>
-                </div>
-                <div class="col-sm-9 col-12">
-                  <div class="ps-2">
-                    <div class="">
-                      <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
-                    </div>
-                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
-                    <div class="">
-                      <img src="img/four-golden-star.svg" alt="">
-                      <small class="GraphikM">4.7</small>
-                      <small class="text-primary ms-2 GraphikM">129 Reviews</small>
-                    </div>
-                    <div class="">
-                      <div class="d-flex mt-3">
-                        <p class="d-flex align-item-center"><img src="img/cart/lavel.svg" alt="" class="img-fluid me-2"><span>Beginner</span></p>
-                        <p class="d-flex align-item-center ms-4"><img src="img/cart/calender.svg" alt="" class="img-fluid me-2"><span>5 Months</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-1 d-none d-sm-block">
-                  <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
-                </div>
-              </div>
-              <hr>
-
-              <div class="row">
-                <div class="col-sm-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
-                  <span class="posAbs">Oracle</span>
-                </div>
-                <div class="col-sm-9 col-12">
-                  <div class="ps-2">
-                    <div class="">
-                      <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
-                    </div>
-                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
-                    <div class="">
-                      <img src="img/four-golden-star.svg" alt="">
-                      <small class="GraphikM">4.7</small>
-                      <small class="text-primary ms-2 GraphikM">129 Reviews</small>
-                    </div>
-                    <div class="">
-                      <div class="d-flex mt-3">
-                        <p class="d-flex align-item-center"><img src="img/cart/lavel.svg" alt="" class="img-fluid me-2"><span>Beginner</span></p>
-                        <p class="d-flex align-item-center ms-4"><img src="img/cart/calender.svg" alt="" class="img-fluid me-2"><span>5 Months</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-1 d-none d-sm-block">
-                  <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
-                </div>
-              </div>
-              <hr>
-
-              <div class="row">
-                <div class="col-sm-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
-                  <span class="posAbs">Oracle</span>
-                </div>
-                <div class="col-sm-9 col-12">
-                  <div class="ps-2">
-                    <div class="">
-                      <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
-                    </div>
-                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
-                    <div class="">
-                      <img src="img/four-golden-star.svg" alt="">
-                      <small class="GraphikM">4.7</small>
-                      <small class="text-primary ms-2 GraphikM">129 Reviews</small>
-                    </div>
-                    <div class="">
-                      <div class="d-flex mt-3">
-                        <p class="d-flex align-item-center"><img src="img/cart/lavel.svg" alt="" class="img-fluid me-2"><span>Beginner</span></p>
-                        <p class="d-flex align-item-center ms-4"><img src="img/cart/calender.svg" alt="" class="img-fluid me-2"><span>5 Months</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-1 d-none d-sm-block">
-                  <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
-                </div>
-              </div>
-              <hr>
-
-              <div class="row">
-                <div class="col-sm-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
-                  <span class="posAbs">Oracle</span>
-                </div>
-                <div class="col-sm-9 col-12">
-                  <div class="ps-2">
-                    <div class="">
-                      <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
-                    </div>
-                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
-                    <div class="">
-                      <img src="img/four-golden-star.svg" alt="">
-                      <small class="GraphikM">4.7</small>
-                      <small class="text-primary ms-2 GraphikM">129 Reviews</small>
-                    </div>
-                    <div class="">
-                      <div class="d-flex mt-3">
-                        <p class="d-flex align-item-center"><img src="img/cart/lavel.svg" alt="" class="img-fluid me-2"><span>Beginner</span></p>
-                        <p class="d-flex align-item-center ms-4"><img src="img/cart/calender.svg" alt="" class="img-fluid me-2"><span>5 Months</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-1 d-none d-sm-block">
-                  <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
-                </div>
-              </div>
-              <hr>
-
-              <div class="row">
-                <div class="col-sm-2 position-relative">
-                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
-                  <span class="posAbs">Oracle</span>
-                </div>
-                <div class="col-sm-9 col-12">
-                  <div class="ps-2">
-                    <div class="">
-                      <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
-                    </div>
-                    <p class="text-muted GraphikM pe-sm-5 me-sm-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
-                    <div class="">
-                      <img src="img/four-golden-star.svg" alt="">
-                      <small class="GraphikM">4.7</small>
-                      <small class="text-primary ms-2 GraphikM">129 Reviews</small>
-                    </div>
-                    <div class="">
-                      <div class="d-flex mt-3">
-                        <p class="d-flex align-item-center"><img src="img/cart/lavel.svg" alt="" class="img-fluid me-2"><span>Beginner</span></p>
-                        <p class="d-flex align-item-center ms-4"><img src="img/cart/calender.svg" alt="" class="img-fluid me-2"><span>5 Months</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-1 d-none d-sm-block">
-                  <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid">
-                </div>
-              </div>
-              <hr>
+               
+              <div id="renderFilters"></div>
+              <div class="pt-5"></div>
+              <div class="pt-5"></div>
               <div class="pt-5"></div>
             </div>
           </div>
@@ -390,67 +255,58 @@
 
 
     
-
-
-
+ 
     <!-- --------------------- This is Footer ---------------------  -->
         <?php include 'includes/footer.php'  ?>
       
       
 
 
+        <?php include 'includes/scripts.php'  ?>
 
 
+ 
+ <script>
+
+  let courseRow = ` <div class="row">
+                <div class="col-lg-2 position-relative">
+                  <img src="img/cart/1.jpg" alt="" class="img-fluid mobBanner">
+                  <span class="posAbs">Oracle</span>
+                </div>
+                <div class="col-lg-9 col-12">
+                  <div class="ps-2">
+                    <div class="">
+                      <p class="GraphikSB fs-5 mb-1">Oracle Fusion Technical</p>
+                    </div>
+                    <p class="text-muted GraphikM pe-lg-5 me-lg-5 mb-1">Oracle Cloud ERP Technical - Integration, Conversion(FBDI, ADFdi, SOAP/REST), Reports(BI/OTBI), Workflows, Security, OIC</p>
+                    <div class="">
+                      <img src="img/four-golden-star.svg" alt="">
+                      <small class="GraphikM">4.7</small>
+                      <small class="text-primary ms-2 GraphikM">129 Reviews</small>
+                    </div>
+                    <div class="">
+                      <div class="d-flex mt-3">
+                        <p class="d-flex align-item-center"><img src="img/cart/lavel.svg" alt="" class="img-fluid me-2"><span>Beginner</span></p>
+                        <p class="d-flex align-item-center ms-4"><img src="img/cart/calender.svg" alt="" class="img-fluid me-2"><span>5 Months</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1 d-none d-lg-block">
+                 <a href="course-detail.php"> <img src="img/training-programs-list-page/open-btn.svg" alt="" class="img-fluid"></a>
+                </div>
+              </div>
+              <hr/>
+              <br/>
+              `;
+
+               
+            for(var i=0;i<6;i++){
+              $("#renderFilters").append(courseRow)
+          }
 
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/odometer.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-
-    <script src="js/owlCarousel/owl.carousel.min.js"></script>
-    <script>
-        $(document).ready(function() {
-          $('.odometer').html(
-            
-          ) // with jQuery
-            
-        });
-
-
-        $(document).ready(function() {
-          $('.owl-carousel').owlCarousel({
-              loop:true,
-              margin:30,
-              nav:true,
-              dots:false,
-              responsive:{
-                  0:{
-                      items:1
-                  },
-                  600:{
-                      items:3
-                  },
-                  1000:{
-                      items:3.5
-                  }
-              }
-          })
-            
-        });
-        
-    </script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  $(document).ready(function(){
-    $('[data-aos]').wrap(`<span style="overflow: hidden;display: inline-block;"></span>`);
-  });
- AOS.init({
-  offset: 120
- });
-</script>
+ </script>
     
   </body>
 </html>

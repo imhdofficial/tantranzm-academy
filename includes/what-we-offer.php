@@ -1,17 +1,20 @@
 <!-- Discover What We Offer: Our Commitment to Clients Start  -->
 
-
-    <div class="container">
+<div class="container">
+  <div class="pt-5 mt-5"></div>
+  <h1 class="text-uppercase AmsiProU">Discover What We Offer: <br> Our Commitment to Clients</h1>
+  <div class="pt-5 mt-3"></div>
+ 
       <div class="row">
-        <div class="col-3 pe-5">
+        <div class="col-lg-3 pe-5">
           <p class="text-danger GraphikR Odometer" style="font-size: 60px;">1000+</p>
           <p class="GraphikM">Quality trained fresher requirements</p>
         </div>
-        <div class="col-4 px-5 border-2 border-start border-end border-secondary-subtle">
+        <div class="col-lg-4 px-lg-5 border-2 border-start border-end border-secondary-subtle">
           <p class="text-danger GraphikR odometerOptions" style="font-size: 60px;">10000+</p>
           <p class="GraphikM">To train over 10000 <br> resources in couple of years</p>
         </div>
-        <div class="col-3  ps-5">
+        <div class="col-lg-3  ps-lg-5">
           <p class="text-danger GraphikR" style="font-size: 60px;">50+</p>
           <p class="GraphikM">Technical Skill Development Courses</p>
         </div>

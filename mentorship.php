@@ -41,6 +41,7 @@
     <!-- ---------------------Banner Start---------------------  -->
 
 
+        <div class="mentorshipPage" >
         <div class="courseDetailPageBanner goodBackground" style="background-image: url(img/mentorship/banner-bg.jpg);">
           <div class="container">
             <div class="pt-5"></div>
@@ -48,7 +49,7 @@
             <div class="pt-5"></div>
 
             <div class="row">
-              <div class="col-5 pe-4">
+              <div class="col-lg-5 pe-4">
                 <h1 class="text-white AmsiProU text-uppercase">
                   <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Helping people</span> <br> <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Transform The</span> <br> <span data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">World</span>
                 </h1>
@@ -60,6 +61,7 @@
             <div class="pt-5"></div>
             <div class="mb-4"></div>
           </div>
+        </div>
         </div>
 
     <!-- ---------------------Banner End---------------------  -->
@@ -80,12 +82,12 @@
           </h1>
         </div>
         <div class="pt-5"></div>
-        <div class="container">
+        <div class="container px-3 px-lg-0">
           <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6">
               <img src="img/mentorship/1.jpg" alt="" class="img-fluid" data-aos="fade" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             </div>
-            <div class="col-6 ">
+            <div class="col-lg-6 ">
             <div class="mentorshipList GraphikM">
               <ul class="mt-0">
                 <div class="border-bottom position-relative">
@@ -164,60 +166,9 @@
         <?php include 'includes/footer.php'  ?>
       
       
+        <?php include 'includes/scripts.php'  ?>
 
 
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/odometer.js"></script>
-
-
-
-
-    <script src="js/owlCarousel/owl.carousel.min.js"></script>
-    <script>
-        $(document).ready(function() {
-          $('.odometer').html(
-            
-          ) // with jQuery
-            
-        });
-
-
-        $(document).ready(function() {
-          $('.owl-carousel').owlCarousel({
-              loop:true,
-              margin:30,
-              nav:true,
-              dots:false,
-              responsive:{
-                  0:{
-                      items:1
-                  },
-                  600:{
-                      items:3
-                  },
-                  1000:{
-                      items:3.5
-                  }
-              }
-          })
-            
-        });
-        
-    </script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  $(document).ready(function(){
-    $('[data-aos]').wrap(`<span style="overflow: hidden;display: inline-block;"></span>`);
-  });
- AOS.init({
-  offset: 120
- });
-</script>
-    
+ 
   </body>
 </html>

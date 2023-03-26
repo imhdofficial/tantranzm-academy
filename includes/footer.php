@@ -4,7 +4,7 @@
           <div class="col-12 col-sm mb-4 mb-sm-0"><img src="img/white-logo.svg" alt=""></div>
           <div class="col d-flex justify-content-sm-end">
               <ul class="list-inline social-buttons">
-                <li class="list-inline-item"><a href="all-page.php"><img src="img/sc1.svg" alt=""></a></li>
+                <li class="list-inline-item"><a href=""><img src="img/sc1.svg" alt=""></a></li>
                 <li class="list-inline-item"><a href=""><img src="img/sc2.svg" alt=""></a></li>
                 <li class="list-inline-item"><a href=""><img src="img/sc3.svg" alt=""></a></li>
                 <li class="list-inline-item"><a href=""><img src="img/sc4.svg" alt=""></a></li>

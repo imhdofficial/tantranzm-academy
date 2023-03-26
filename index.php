@@ -1,23 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TantranZm</title>
-    <link rel="shortcut icon" href="img/ficon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="js/owlCarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="js/owlCarousel/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="js/owlCarousel/assets/animate.min.css"> 
-    <link rel="stylesheet" href="js/owlCarousel/assets/animate.min.css"> 
-    <link rel="stylesheet" href="js/odometer/odometer-theme-car.css" />
-
-    <link rel="stylesheet" href="css/aos.css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" >
-    <script src="js/jquery.min.js"></script>
-    <script src="js/odometer.min.js"></script>
-  </head>
+  
+  <?php include 'includes/head.php'  ?>  
 
 
 
@@ -31,7 +15,7 @@
 
   <main>
     <!-- --------------------- This is Header ---------------------  -->
-      <!-- <?php include 'includes/header.php'  ?>  -->
+       <?php include 'includes/header.php'  ?>  
 
 
 
@@ -43,12 +27,12 @@
 
 
       <div class="container-custom-fluid">
-      <div class="">
-      <div class=" mTbanner position-relative d-flex wFull ">
-        <div class=" d-flex position-relative w-100">
+      <div class="mainBanner">
+      <div class=" mTbanner position-relative   wFull h-100 px-sm-3">
+        <div class="row position-relative  h-100 m-xs-0 ">
 
-          <div class="col-12 col-sm-6 m-0 p-sm-4 wFull" style="background: #171717;">
-            <div class=" px-2 px-sm-4 py-5">
+          <div class="col-12 col-lg-6 m-0 p-sm-4  " style="background: #171717;">
+            <div class="px-4 px-sm-4 py-5">
               <!-- <div class="mt-sm-3 pt-sm-3"></div> -->
 
               <div style="overflow: hidden;">
@@ -66,7 +50,7 @@
                     data-aos-duration="700"
                     data-aos-easing="ease-in-out"
                     data-aos-anchor-placement="top">With Assured</span>
-                   <br/>
+                   
                     <span style="display:block;" data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-duration="700"
@@ -99,28 +83,24 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-12 m-0 p-0 wFull position-relative d-none d-sm-block" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
-            <div class="">
-              <div class="row d-flex">
+          <div class="col-lg-6 col-12 m-0 p-0 position-relative" style="background-image: url(img/bannerbg.jpg); background-repeat: no-repeat; background-size: cover;">
+            <div class="h-100">
+              <div class="row d-none d-lg-flex">
                 <div class="mt-3 pt-3"></div>
-                <img src="img/girlo.png" alt="" class="mTgirl" data-aos="fade"
-                data-aos-delay="400"
-                data-aos-duration="700"
-                data-aos-easing="ease-in-out"
-                data-aos-anchor-placement="top">
+                <img src="img/girlo.png" alt="" class="mTgirl d-none d-sm-block"  >
                 </div>
-                <div class="bgDblue p-4 inputBflow"  >
+                <div class="bgDblue p-sm-4 p-3 inputBflow"  >
                   <div class="m-2">
                      
                   <h5 class="AmsiPro text-white text-uppercase mb-3"  >Let's Rise Together</h5>
                      
 
-                  <div class="d-flex noFc">
-                    <input class="inputB1" type="text" placeholder="Name">
-                    <input class="inputB2" type="text" placeholder="Mobile Number">
-                    <a href="#">
-                      <img src="img/numbtn.svg" alt="">
-                    </a>
+                  <div class="d-flex noFc flex-xs-wrap ">
+                    <input class="inputB1 w-xs-100" type="text" placeholder="Name">
+                    <input class="inputB2 w-xs-100" type="text" placeholder="Mobile Number">
+                    <button class="inputB3 btn" href="#">
+                      &nbsp;
+                    </button>
                   </div>
                   </div>
                 </div>
@@ -144,21 +124,13 @@
         <div class="container">
           <div class="pt-5 mt-sm-5"></div>
           <div class="text-center">
-            <h1 class="AmsiProU" data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="700"
-                    data-aos-easing="ease-in-out"
-                    data-aos-anchor-placement="top">Become Certified For The Right Skill Sets</h1>
-            <p class="GraphikM" data-aos="fade-up"
-                    data-aos-delay="300"
-                    data-aos-duration="700"
-                    data-aos-easing="ease-in-out"
-                    data-aos-anchor-placement="top">Get a head start in the workplace and update skills effortlessly with <br> this free powerhouse of real-time training programs.</p>
+            <h1 class="AmsiProU"  >Become Certified For The Right Skill Sets</h1>
+            <p class="GraphikM"  >Get a head start in the workplace and update skills effortlessly with <br> this free powerhouse of real-time training programs.</p>
           </div>
         </div>
 
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-center clientRow align-items-center">
+        <div class="container becomeCertified">
+            <div class="d-flex justify-content-center clientRow align-items-center">
               <img src="img/tzc1.png" alt="" data-aos="fade" data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img class="mx-sm-5" src="img/tzc2.png" alt="" data-aos="fade" data-aos-delay="850" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               <img class="mx-sm-5" src="img/tzc5.png" alt="" data-aos="fade" data-aos-delay="1200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
@@ -222,7 +194,7 @@
               </div>
 
               <div class="container-flued bgLblue d-sm-none">
-                <p class="text-white text-center py-4 text-uppercase mb-0">View all Training Programs</p>
+                <a href="all-courses.php" class="d-block text-white text-center py-4 text-uppercase mb-0">View all Training Programs</a>
               </div>
 
 
@@ -251,7 +223,7 @@
 
           <div class="row">
             <div class="col-6">
-              <div class="bg-white me-2" data-aos="fade-in" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <a href="training-programs-detail-page.php" class="d-block bg-white me-2 text-decoratin-none" data-aos="fade-in" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
                 <div class="row">
                   <div class="col-4 border-end">
                     <div class="p-4">
@@ -286,7 +258,7 @@
                       </div>
                     </div>
                 </div>
-              </div>
+              </a>
             </div>
 
 
@@ -337,7 +309,7 @@
 
           <div class="row">
             <div class="col-6">
-              <div class="bg-white me-2" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <a href="training-programs-detail-page.php" class="d-block bg-white me-2 text-decoratin-none" data-aos="fade-in" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
                 <div class="row">
                   <div class="col-4 border-end">
                     <div class="p-4">
@@ -372,7 +344,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
 
@@ -421,7 +393,7 @@
       </div>
 
       <div class="container-flued bgLblue d-none d-sm-block">
-        <p class="text-white text-center py-4 text-uppercase">View all Training Programs</p>
+        <a href="all-courses.php" class="d-block text-decoration-none text-white text-center py-4 text-uppercase">View all Training Programs</a>
       </div>
 
       <div class="mt-5 pt-5"></div>
@@ -519,11 +491,11 @@
         <div class="container px-sm-5">
           <div class="row">
             <div class="col-sm-6 col-12">
-              <h1 class="text-uppercase AmsiProU"  data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Get Hired by Industry <br> Leading Companies</h1>
+              <h1 class="text-uppercase AmsiProU"  >Get Hired by Industry <br> Leading Companies</h1>
             </div>
             <div class="col-sm-6 col-12">
-              <p class="text-capitalize brandonB"  data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">If you're committed to finding out about the latest <br> offers and deals, why not join?</p>
-              <div class="d-flex noFc"  data-aos="fade-right" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <p class="text-capitalize brandonB"   >If you're committed to finding out about the latest <br> offers and deals, why not join?</p>
+              <div class="d-flex noFc"  >
                 <input class="numbtn ps-3" type="text" placeholder="Enter Mobile Number">
                 <a href="#">
                   <img src="img/numbtn.svg" alt="">
@@ -542,11 +514,11 @@
     <!-- Helping people Transform The World Start  -->
 
       
-      <div class="container-fluid" style="background-image: url(img/helpbg.jpg); border-top: 7px solid red;">
+      <div class="container-fluid helpingSection" style="background-image: url(img/helpbg.jpg); border-top: 7px solid red;">
         <div class="container overflow-hidden">
           <div class="pt-5 mt-sm-5"></div>
-          <div class="pt-sm-5 mt-sm-5"></div>
-          <div class="pt-sm-3 mt-sm-3"></div>
+          <div class="pt-5 mt-5"></div>
+          <div class="pt-3 mt-3"></div>
 
           <div class="row">
             <div class="col-7 d-none d-sm-block"></div>
@@ -557,12 +529,12 @@
                 Education is one of the most important aspects of human life, yet many don't have access to the same opportunities that others do. Explore how we can help people transform the world by providing them with quality training at discounted prices, so they can pursue their dreams and reach their goals.
               </p>
               <br>
-              <button class="bg-transparent border-white px-4 py-3 text-white" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Explore Now <img class="ps-3" src="img/aero.png" alt=""></button>
+              <a href="mentorship.php" class="btn  rounded-0 bg-transparent border-white px-4 py-3 text-white" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Explore Now <img class="ps-3" src="img/aero.png" alt=""></a>
             </div>
           </div>
           <div class="pt-5 mt-sm-5"></div>
-          <div class="pt-sm-5 mt-sm-5"></div>
-          <div class="pt-sm-4 mt-sm-4"></div>
+          <div class="pt-5 mt-5"></div>
+          <div class="pt-4 mt-4"></div>
 
 
         </div>
@@ -578,11 +550,7 @@
 
 
     <!-- Discover What We Offer: Our Commitment to Clients Start  -->
-      <div class="container">
-      <div class="pt-5 mt-5"></div>
-      <h1 class="text-uppercase AmsiProU">Discover What We Offer: <br> Our Commitment to Clients</h1>
-      <div class="pt-5 mt-3"></div>
-      </div>
+     
       <?php include 'includes/what-we-offer.php'  ?>
     
     <!-- Discover What We Offer: Our Commitment to Clients End  -->
@@ -595,12 +563,12 @@
     
     
     <div class="container-flued bg-white">
-      <div class="pt-sm-5 mt-sm-5"></div>
+      <div class="pt-sm-5 mt-5"></div>
       <div class="pt-3 mt-sm-3"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-5 col-12">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-lg-center">
               <h1 class="text-uppercase AmsiProU mt-3" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">WHY <br> <span class="coloutOrng">tantranzm?</span></h1>
             </div>
             <div class="pt-sm-5 mt-sm-5"></div>
@@ -616,34 +584,34 @@
             <div class="alphaList">
               <ul>
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Rigorous on job like on-premise and on-line training programs.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Rigorous on job like on-premise and on-line training programs.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Before and on training job placements in top-notch clients like PWC, Oracle, Deloitte, Technip Energies and the parent org. TantranZm Technolgies.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Before and on training job placements in top-notch clients like PWC, Oracle, Deloitte, Technip Energies and the parent org. TantranZm Technolgies.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Access to all the portals and materials even after training completion.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Access to all the portals and materials even after training completion.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Candidate can have a direct chat and call with the client where he is supposed to join during the training program through our portal access.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Candidate can have a direct chat and call with the client where he is supposed to join during the training program through our portal access.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">TantranZm will assure that the trainee gets placed properly. A helping hand, which would not leave you until you are not placed properly.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">TantranZm will assure that the trainee gets placed properly. A helping hand, which would not leave you until you are not placed properly.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">The opportunity to work within your desired profession.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">The opportunity to work within your desired profession.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">An opportunity to build out core subject matter expertise.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">An opportunity to build out core subject matter expertise.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="1700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Access to the TantranZm team and resources.</li> <br>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="1700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">Access to the TantranZm team and resources.</li> <br>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="1900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">A fast-paced and dynamic environment.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="1900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">A fast-paced and dynamic environment.</li>
                 </div>  
                 <div class="border-bottom">
-                  <li class="" data-aos="fade-up" data-aos-delay="2100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">A variety of live tasks and projects to grow your on-the-job experience.</li>
+                  <li class="no-lock" data-aos="fade-up" data-aos-delay="2100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">A variety of live tasks and projects to grow your on-the-job experience.</li>
                 </div>  
                 <div class="border-bottom">
                   <li class="" data-aos="fade-up" data-aos-delay="2300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">An opportunity to be the part of global TantranZm alumni network.</li>
@@ -683,7 +651,7 @@
 
 
       <div class="container-fluid bg-white overflow-hidden">
-        <div class="pt-5 mt-5"></div>
+        <div class="pt-lg-5 mt-5"></div>
         <div class="pt-4 mt-4"></div>
         <div class="container">
           <div class="AmsiProU text-uppercase text-center">
@@ -692,60 +660,60 @@
             </h1>
           </div>
 
-          <div class="pt-5 mt-5"></div>
+          <div class="pt-5 mt-lg-5"></div>
   
-          <div class="d-flex align-items-center justify-content-center">
-              <div class="px-4 ">
-                <img src="img/opc1.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+          <div class="clientsLogos row align-items-center justify-content-center">
+              <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+                <img src="img/opc1.png" alt="" class=" px-lg-4 img-fluid"  data-aos-delay="200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               </div>
 
-              <div class="px-4 ">
-                <img src="img/opc2.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+                <img src="img/opc2.png" alt="" class=" px-lg-4 img-fluid"  data-aos-delay="300" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               </div>
 
-              <div class="px-4 ">
-                <img src="img/opc3.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+                <img src="img/opc3.png" alt="" class=" px-lg-4 img-fluid"  data-aos-delay="400" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               </div>
 
-              <div class="px-4 ">
-                <img src="img/opc4.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+                <img src="img/opc4.png" alt="" class=" px-lg-4 img-fluid"  data-aos-delay="500" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               </div>
 
-              <div class="px-4 ">
-                <img src="img/opc5.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+                <img src="img/opc5.png" alt="" class=" px-lg-4 img-fluid"  data-aos-delay="600" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               </div>
 
-              <div class="px-4 ">
-                <img src="img/opc6.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+              <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+                <img src="img/opc6.png" alt="" class=" px-4 img-fluid"  data-aos-delay="700" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
               </div>
           </div>
 
-          <div class="pt-5 mt-5"></div>
+          <div class="pt-lg-5 mt-lg-5"></div>
 
-          <div class="d-flex align-items-center justify-content-center">
-            <div class="px-4 ">
-              <img src="img/opc7.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+          <div class="clientsLogos row align-items-center justify-content-center">
+            <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+              <img src="img/opc7.png" alt=""class="img-fluid  px-lg-4 "  data-aos-delay="800" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             </div>
 
-            <div class="px-4 ">
-              <img src="img/opc8.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+            <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+              <img src="img/opc8.png" alt="" class="img-fluid px-lg-4 "  data-aos-delay="900" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             </div>
 
-            <div class="px-4 ">
-              <img src="img/opc9.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+            <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+              <img src="img/opc9.png" alt="" class="img-fluid px-lg-4 "  data-aos-delay="1000" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             </div>
 
-            <div class="px-4 ">
-              <img src="img/opc10.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+            <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+              <img src="img/opc10.png" alt="" class="img-fluid px-lg-4 "  data-aos-delay="1100" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             </div>
 
-            <div class="px-4 ">
-              <img src="img/opc11.png" alt="" class=" px-4 img-fluid gbgbgbg" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
+            <div class="px-lg-4 col-lg-auto col-4 mb-4 mb-lg-0">
+              <img src="img/opc11.png" alt="" class="img-fluid px-lg-4 "  data-aos-delay="1200" data-aos-duration="700" data-aos-easing="ease-in-out" data-aos-anchor-placement="top">
             </div>
           </div>
         </div>
-        <div class="pt-5 mt-5"></div>
-        <div class="pt-4 mt-4"></div>
+        <div class="pt-lg-5 mt-5"></div>
+        <div class="pt-lg-4 mt-4"></div>
       </div>
 
       <?php include 'includes/why-in-person.php'  ?>
@@ -777,57 +745,11 @@
 
 <?php include 'includes/menu.php'  ?>
 
+  <?php include 'includes/scripts.php'  ?>
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script src="js/odometer.js"></script>
-
-
-
-
-    <script src="js/owlCarousel/owl.carousel.min.js"></script>
-    <script>
-       
-      function smartMenu(){
-          $("body").toggleClass("smartMenu");
-      }
-      
-
-        $(document).ready(function() {
-          $('.owl-carousel').owlCarousel({
-              loop:true,
-              margin:30,
-              nav:true,
-              dots:false,
-              responsive:{
-                  0:{
-                      items:1.2
-                  },
-                  600:{
-                      items:3.3
-                  },
-                  1000:{
-                      items:3.5
-                  }
-              }
-          })
-            
-        });
-        
-    </script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  $(document).ready(function(){
-    $('[data-aos]').wrap(`<span style="overflow: hidden;display: inline-block;"></span>`);
-  });
- AOS.init({
-  offset: 120
- });
-</script>
     
   </body>
 </html>
