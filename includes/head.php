@@ -13,6 +13,6 @@
     <link rel="stylesheet" href="js/owlCarousel/assets/animate.min.css"> 
     <link rel="stylesheet" href="js/odometer/odometer-theme-car.css" />
 
-    <link rel="stylesheet" href="css/aos.css" />
+    <!-- <link rel="stylesheet" href="css/aos.css" /> -->
   
   </head>

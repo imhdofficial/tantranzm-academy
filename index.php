@@ -74,7 +74,7 @@
                
               <br><br>
               
-              <button class="bg-transparent border-white px-4 py-3 text-white" data-aos="fade-up"
+              <button class="btn rounded-0 bg-transparent border-white px-4 py-3 text-white" data-aos="fade-up"
               data-aos-delay="400"
               data-aos-duration="700"
               data-aos-easing="ease-in-out"

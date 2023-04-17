@@ -22,12 +22,18 @@
                       <li><a class="dropdown-item" href="#">For Colleges</a></li>
                     </ul>
                   </div>
+                    <li class="tZli">
                   <a class="text-decoration-none mx-3" href="#">
-                    <li class="tZli">Training Centers</li>
-                  </a>
+
+                      Training Centers
+                      </a>
+                    </li>
+                    <li class="tZli">
                   <a class="text-decoration-none " href="#">
-                    <li class="tZli">About Us</li>
+
+                      About Us
                   </a>
+                    </li>
                 </ul>
               </div>
           </div>
@@ -43,7 +49,7 @@
 
             <button type="button" class=" rounded-0 btn btn-danger ms-4">Apply Now</button>
 
-            <span class="mx-4 d-none d-sm-inline-block">Login</span>
+            <a href="" class="d-none d-sm-inline-block mx-4 text-decoratin-none">Login</a>
 
             <button class="btn" onclick="smartMenu()">
               <img style="height: 20px;" src="img/breadc.png" alt="">

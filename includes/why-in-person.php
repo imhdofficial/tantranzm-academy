@@ -1,4 +1,4 @@
-    <div class="container-fluid position-relative bgRedInMob" style="background-image: url(img/2p.jpg);">
+    <div class="container-fluid position-relative bgRedInMob" style="background: url(img/2p.jpg) no-repeat 50%  50% / cover;">
         <div class="pt-5"></div>
         <div class=" mt-sm-5"></div>
         <div class="pt-sm-5 mt-sm-5"></div>

@@ -121,10 +121,25 @@
     font-display: swap;
 }
 
+a{
+transition: ease all .2s;
 
+}
+a:hover{
+     transition: ease all .2s;
+     color: var(--bs-blue) !important;
+}
 /* --------------------------------  COLOUR & BACKGROUND COLOUR CLASS START --------------------------------  */
+.bg-transparent.border-white.text-white:hover{
+    background: #16287b !important;
+    color: #fff !important;
+    border-color: #7991ff !important;
+}
 
-
+.inputB3.btn:hover{
+    transform: scale(1.1);
+    transition: ease all .5s;
+}
 .coloutOrng{
     color: #EB8E38;
 }
@@ -261,7 +276,7 @@ input{
 
 
 
-.tZli{
+.tZli ,.tZli a{
     list-style: none;
     text-decoration: none !important;
     color: black;
@@ -288,7 +303,8 @@ header .dropDown .dropdown-item{
     text-align: left;
 }
 header .dropDown .dropdown-item:hover{
-    background: var(--bs-gray-200);
+    background: var(--bs-blue);
+    color: white !important;
 }
 
 header .dropDown-menu > li{
@@ -299,6 +315,8 @@ header .dropDown li:last-child{
 }
 header .dropDown .dropdown-menu{
     padding: 10px 0 15px 0;
+    box-shadow: 0px 0px 12px #0000004a !important;
+    border-radius: 6px;
 }
 
 .mTinput input{
@@ -434,7 +452,7 @@ footer {
 .redPA{
     position: absolute;
     right: 0;
-    width: 90vh;
+    width: 50vw;
     bottom: -168px;
 }
 
@@ -479,6 +497,7 @@ footer {
     display: block;
     border-radius: 0;
     background-size: cover;
+    transition: ease all .5s;
 }
 
 .learnWithBest{
@@ -526,7 +545,7 @@ footer {
   
 .alphaList ul li {
     counter-increment: listStyle;
-    padding: 12px 0;
+    padding: 12px 0 12px 20px;
     position: relative;
 }
   
@@ -536,14 +555,15 @@ footer {
     content: counter(listStyle, upper-alpha);
     display: inline-block;
     margin-right: 1.7em;
-    width: 29px;
-    height: 29px;
+    width: 25px;
+    height: 25px;
     text-align: center;
+    line-height: 22px;
     background-color: black;
     color: white;
     border: 1px solid;
     border-radius: 50%;
-    font-size: 17px;
+    font-size: 13px;
 }
 
 .goodBackground{

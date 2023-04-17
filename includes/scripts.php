@@ -39,14 +39,14 @@
         
     </script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
 <script>
   $(document).ready(function(){
-    $('[data-aos]:not(.no-lock)').wrap(`<span style="overflow: hidden;display: inline-block;"></span>`);
+    // $('[data-aos]:not(.no-lock)').wrap(`<span style="overflow: hidden;display: inline-block;"></span>`);
   });
- AOS.init({
-  offset: 120
- });
+//  AOS.init({
+//   offset: 0
+//  });
 
 
  function toggleFilters(){
